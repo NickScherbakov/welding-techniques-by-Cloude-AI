@@ -1,266 +1,266 @@
-# Полный список файлов репозитория Welding Techniques
+# Complete File List for Welding Techniques Repository
 
-## Обзор
+## Overview
 
-Этот документ содержит полный список всех подготовленных файлов для репозитория с кратким описанием каждого.
+This document contains a complete list of all prepared files for the repository with a brief description of each.
 
-## Корневая директория
+## Root Directory
 
 ### 1. README.md
-**Размер:** ~8 KB  
-**Назначение:** Главная страница репозитория  
-**Содержание:**
-- Общее описание проекта
-- Структура содержания
-- Информация о методике TIG + покрытые электроды
-- Инструкции для участников
-- Контакты и лицензия
+**Size:** ~8 KB  
+**Purpose:** Repository main page  
+**Content:**
+- General project description
+- Content structure
+- Information on TIG + coated electrodes method
+- Instructions for contributors
+- Contacts and license
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
 ### 2. LICENSE
-**Размер:** ~20 KB  
-**Назначение:** Лицензионное соглашение  
-**Содержание:**
-- Полный текст лицензии CC BY-SA 4.0
-- Краткое изложение условий
-- Отказ от ответственности
-- Права и обязанности пользователей
+**Size:** ~20 KB  
+**Purpose:** License agreement  
+**Content:**
+- Full text of CC BY-SA 4.0 license
+- Brief summary of terms
+- Disclaimer
+- User rights and obligations
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
 ### 3. SETUP_GUIDE.md
-**Размер:** ~15 KB  
-**Назначение:** Пошаговая инструкция создания репозитория  
-**Содержание:**
-- Регистрация на GitHub
-- Создание репозитория
-- Загрузка файлов (3 способа)
-- Настройка Issues и Discussions
-- Публикация и продвижение
-- Контрольные списки
+**Size:** ~15 KB  
+**Purpose:** Step-by-step repository creation instructions  
+**Content:**
+- GitHub registration
+- Repository creation
+- File upload (3 methods)
+- Issues and Discussions setup
+- Publication and promotion
+- Checklists
 
-**Статус:** ✅ Готов к использованию
+**Status:** ✅ Ready for use
 
 ---
 
 ### 4. QUICK_START.md
-**Размер:** ~12 KB  
-**Назначение:** Быстрый обзор для начала работы  
-**Содержание:**
-- Обзор подготовленных файлов
-- Структура репозитория
-- Три способа работы
-- Чек-листы
+**Size:** ~12 KB  
+**Purpose:** Quick overview to get started  
+**Content:**
+- Overview of prepared files
+- Repository structure
+- Three work methods
+- Checklists
 - FAQ
-- Советы по работе
+- Work tips
 
-**Статус:** ✅ Готов к использованию
+**Status:** ✅ Ready for use
 
 ---
 
 ### 5. FILES_LIST.md
-**Размер:** ~8 KB  
-**Назначение:** Этот файл - каталог всех файлов  
-**Содержание:**
-- Список всех файлов
-- Описания и назначение
-- Статус готовности
-- Приоритеты
+**Size:** ~8 KB  
+**Purpose:** This file - catalog of all files  
+**Content:**
+- List of all files
+- Descriptions and purposes
+- Readiness status
+- Priorities
 
-**Статус:** ✅ Текущий документ
+**Status:** ✅ Current document
 
 ---
 
-## Директория TIG-source-with-coated-electrodes/
+## TIG-source-with-coated-electrodes/ Directory
 
 ### 1. theory.md
-**Размер:** ~25 KB  
-**Назначение:** Теоретическое обоснование метода  
-**Содержание:**
-- Введение и проблематика
-- Физика сварочной дуги
-- Условия возникновения устойчивой дуги
-- Вольт-амперные характеристики
-- Принцип работы HF-поджига
-- Синергия методов
-- Ограничения
-- Области применения
-- Список литературы
+**Size:** ~25 KB  
+**Purpose:** Theoretical justification of method  
+**Content:**
+- Introduction and problem statement
+- Welding arc physics
+- Stable arc conditions
+- Volt-ampere characteristics
+- HF ignition principle
+- Method synergy
+- Limitations
+- Application areas
+- References
 
-**Ключевые разделы:**
-- Сравнение ВАХ для MMA и TIG
-- Механизм высокочастотного пробоя
-- Теоретическое обоснование работоспособности
+**Key sections:**
+- V-A curve comparison for MMA and TIG
+- High-frequency breakdown mechanism
+- Theoretical justification of workability
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
 ### 2. equipment-setup.md
-**Размер:** ~35 KB  
-**Назначение:** Настройка оборудования  
-**Содержание:**
-- Требования к источнику питания
-- Критерии ВАХ (обязательно наклонная!)
-- Высокочастотный поджиг
-- Подбор электродов
-- Пошаговая настройка источника
-- Настройка ВАХ, тока, полярности
-- Подготовка рабочего места
-- Первое включение и проверка
-- Техника безопасности
-- Обслуживание оборудования
+**Size:** ~35 KB  
+**Purpose:** Equipment setup  
+**Content:**
+- Power source requirements
+- V-A curve criteria (must be sloped!)
+- High-frequency ignition
+- Electrode selection
+- Step-by-step power source setup
+- V-A curve, current, polarity setup
+- Workplace preparation
+- First power-up and testing
+- Safety
+- Equipment maintenance
 
-**Ключевые таблицы:**
-- Диаметр электрода vs ток
-- Толщина металла vs параметры
-- Подбор ВАХ
+**Key tables:**
+- Electrode diameter vs current
+- Metal thickness vs parameters
+- V-A curve selection
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
 ### 3. welding-parameters.md
-**Размер:** ~40 KB  
-**Назначение:** Параметры и техника сварки  
-**Содержание:**
-- Базовые таблицы режимов (3 таблицы)
-- Техника сварки (углы, скорость, длина дуги)
-- Техника "с отрывами" (подробно)
-- Непрерывная сварка
-- Режимы для специфических задач
-- Контроль качества
-- Корректировка параметров
-- Документирование режимов
-- Чек-лист перед сваркой
+**Size:** ~40 KB  
+**Purpose:** Parameters and welding technique  
+**Content:**
+- Basic mode tables (3 tables)
+- Welding technique (angles, speed, arc length)
+- Intermittent technique (detailed)
+- Continuous welding
+- Modes for specific tasks
+- Quality control
+- Parameter adjustment
+- Mode documentation
+- Pre-weld checklist
 
-**Ключевые таблицы:**
-- Параметры по диаметру электрода
-- Параметры по толщине металла
-- Параметры по типам соединений
-- Таблица проблем и решений
+**Key tables:**
+- Parameters by electrode diameter
+- Parameters by metal thickness
+- Parameters by joint types
+- Problem and solution table
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
 ### 4. troubleshooting.md
-**Размер:** ~45 KB  
-**Назначение:** Устранение неполадок  
-**Содержание:**
-- Классификация проблем (критические, серьезные, умеренные)
-- Проблемы зажигания дуги (5 проблем)
-- Проблемы с залипанием (5 проблем)
-- Проблемы стабильности дуги (7 проблем)
-- Проблемы качества шва (13 проблем)
-- Проблемы с оборудованием (3 проблемы)
-- Проблемы техники (3 проблемы)
-- Диагностическая блок-схема
-- Примеры успешного устранения
-- Журнал учета проблем
-- Профилактика
-- FAQ (7 вопросов)
+**Size:** ~45 KB  
+**Purpose:** Troubleshooting  
+**Content:**
+- Problem classification (critical, serious, moderate)
+- Arc ignition problems (5 problems)
+- Electrode sticking problems (5 problems)
+- Arc stability problems (7 problems)
+- Weld quality problems (13 problems)
+- Equipment problems (3 problems)
+- Technique problems (3 problems)
+- Diagnostic flowchart
+- Successful resolution examples
+- Problem log
+- Prevention
+- FAQ (7 questions)
 
-**Ключевые таблицы:**
-- Таблица соответствия проблем и решений (10 позиций)
-- Контрольный список диагностики
-- Признаки неисправностей
+**Key tables:**
+- Problem-solution correspondence table (10 items)
+- Diagnostic checklist
+- Malfunction symptoms
 
-**Статус:** ✅ Готов к публикации
+**Status:** ✅ Ready for publication
 
 ---
 
-## Директория TIG-source-with-coated-electrodes/images/
+## TIG-source-with-coated-electrodes/images/ Directory
 
 ### README.md
-**Размер:** ~18 KB  
-**Назначение:** Инструкции для работы с изображениями  
-**Содержание:**
-- Рекомендуемая структура папки images
-- Технические требования к фотографиям
-- Что фотографировать (7 категорий)
-- Правила оформления
-- Авторские права
-- Шаблон описания фотографии
-- Примеры хороших и плохих фото
-- Инструкции по добавлению
-- Обработка изображений
-- Вклад в коллекцию
+**Size:** ~18 KB  
+**Purpose:** Image work instructions  
+**Content:**
+- Recommended images folder structure
+- Photo technical requirements
+- What to photograph (7 categories)
+- Formatting rules
+- Copyright
+- Photo description template
+- Examples of good and bad photos
+- Adding instructions
+- Image processing
+- Collection contributions
 
-**Структура подпапок:**
+**Subfolder structure:**
 ```
 images/
-├── equipment/      # Оборудование
-├── setup/          # Настройка
-├── electrodes/     # Электроды
-├── technique/      # Техника
-├── welds/          # Швы
-├── defects/        # Дефекты
-├── diagrams/       # Схемы
-└── safety/         # Безопасность
+├── equipment/      # Equipment
+├── setup/          # Setup
+├── electrodes/     # Electrodes
+├── technique/      # Technique
+├── welds/          # Welds
+├── defects/        # Defects
+├── diagrams/       # Diagrams
+└── safety/         # Safety
 ```
 
-**Статус:** ✅ Готов, ожидает изображений
+**Status:** ✅ Ready, awaiting images
 
 ---
 
-## Директория other-techniques/
+## other-techniques/ Directory
 
 ### README.md
-**Размер:** ~1 KB (заглушка)  
-**Назначение:** Плейсхолдер для будущих разделов  
-**Содержание:**
-- Краткое описание
-- Планируемые разделы
-- Приглашение к участию
+**Size:** ~1 KB (placeholder)  
+**Purpose:** Placeholder for future sections  
+**Content:**
+- Brief description
+- Planned sections
+- Participation invitation
 
-**Статус:** 🔄 Требует создания (низкий приоритет)
+**Status:** 🔄 Requires creation (low priority)
 
 ---
 
-## Статистика
+## Statistics
 
-### Общая информация
+### General Information
 
-| Параметр | Значение |
+| Parameter | Value |
 |----------|----------|
-| Всего файлов | 10 (основных) |
-| Общий объем | ~230 KB текста |
-| Готовых к публикации | 9 файлов |
-| Требует создания | 1 файл (низкий приоритет) |
-| Языки | Русский (основной) |
-| Формат | Markdown (.md) |
-| Кодировка | UTF-8 |
+| Total files | 10 (main) |
+| Total size | ~230 KB text |
+| Ready for publication | 9 files |
+| Requires creation | 1 file (low priority) |
+| Languages | English (primary) |
+| Format | Markdown (.md) |
+| Encoding | UTF-8 |
 
-### Разбивка по типам контента
+### Breakdown by Content Type
 
-| Тип контента | Количество | Объем |
+| Content Type | Quantity | Size |
 |--------------|------------|-------|
-| Документация | 4 файла | ~145 KB |
-| Инструкции | 3 файла | ~35 KB |
-| Организационные | 3 файла | ~50 KB |
+| Documentation | 4 files | ~145 KB |
+| Instructions | 3 files | ~35 KB |
+| Organizational | 3 files | ~50 KB |
 
-### Разбивка по разделам
+### Breakdown by Section
 
-| Раздел | Файлов | Готовность |
+| Section | Files | Readiness |
 |--------|---------|------------|
-| Корень | 5 | 100% |
+| Root | 5 | 100% |
 | TIG-source-with-coated-electrodes/ | 4 | 100% |
-| images/ | 1 | 100% (структура) |
-| other-techniques/ | 0 | 0% (не критично) |
+| images/ | 1 | 100% (structure) |
+| other-techniques/ | 0 | 0% (not critical) |
 
-## Приоритеты создания
+## Creation Priorities
 
-### Высокий приоритет ✅ (Сделать в первую очередь)
+### High Priority ✅ (Do First)
 
-1. **Создать репозиторий на GitHub**
-2. **Загрузить все готовые .md файлы**
-   - README.md (корень)
+1. **Create GitHub repository**
+2. **Upload all ready .md files**
+   - README.md (root)
    - LICENSE
    - SETUP_GUIDE.md
    - QUICK_START.md
@@ -271,195 +271,195 @@ images/
    - troubleshooting.md
    - images/README.md
 
-3. **Создать структуру папок**
+3. **Create folder structure**
    - TIG-source-with-coated-electrodes/
-   - TIG-source-with-coated-electrodes/images/ (с подпапками)
+   - TIG-source-with-coated-electrodes/images/ (with subfolders)
    - other-techniques/
 
-4. **Настроить репозиторий**
+4. **Configure repository**
    - Topics
    - Description
    - Issues
    - License
 
-### Средний приоритет 🟡 (Сделать в ближайшее время)
+### Medium Priority 🟡 (Do Soon)
 
-1. **Подготовить фотографии**
-   - Оборудование с настройками
-   - Примеры качественных швов
-   - Основные дефекты
-   - Процесс сварки
+1. **Prepare photos**
+   - Equipment with settings
+   - Quality weld examples
+   - Main defects
+   - Welding process
 
-2. **Создать README для подраздела**
+2. **Create subsection README**
    - TIG-source-with-coated-electrodes/README.md
-   - Краткое описание раздела
-   - Быстрый старт
-   - Навигация
+   - Brief section description
+   - Quick start
+   - Navigation
 
-3. **Добавить схемы и диаграммы**
-   - График ВАХ
-   - Схема подключения
-   - Диаграмма импульсов
+3. **Add diagrams and charts**
+   - V-A curve graph
+   - Connection diagram
+   - Pulse diagram
 
-### Низкий приоритет 🔵 (Можно сделать позже)
+### Low Priority 🔵 (Can Do Later)
 
-1. **Создать Wiki**
-   - Дублирование документации
-   - Дополнительные материалы
+1. **Create Wiki**
+   - Documentation duplication
+   - Additional materials
 
-2. **Настроить GitHub Pages**
-   - Веб-версия документации
-   - Красивое оформление
+2. **Set up GitHub Pages**
+   - Web documentation version
+   - Beautiful formatting
 
-3. **Добавить другие разделы**
-   - other-techniques/ с содержанием
-   - Новые методики
+3. **Add other sections**
+   - other-techniques/ with content
+   - New methods
 
-4. **Переводы**
-   - Английская версия
-   - Другие языки
+4. **Translations**
+   - English version
+   - Other languages
 
-## Контрольный список для публикации
+## Publication Checklist
 
-### Перед первой публикацией
+### Before First Publication
 
-- [ ] Все 9 основных файлов загружены
-- [ ] Структура папок создана
-- [ ] README.md проверен и актуален
-- [ ] LICENSE на месте
-- [ ] Ссылки между документами работают
-- [ ] Нет опечаток в критичных местах (названия, параметры)
-- [ ] Topics добавлены
-- [ ] Description заполнен
+- [ ] All 9 main files uploaded
+- [ ] Folder structure created
+- [ ] README.md checked and current
+- [ ] LICENSE in place
+- [ ] Links between documents work
+- [ ] No typos in critical places (names, parameters)
+- [ ] Topics added
+- [ ] Description filled
 
-### После первой публикации
+### After First Publication
 
-- [ ] Проверена читаемость на GitHub
-- [ ] Протестированы ссылки
-- [ ] Исправлены обнаруженные ошибки
-- [ ] Создан Release v1.0.0
-- [ ] Поделились в сообществах
+- [ ] Readability checked on GitHub
+- [ ] Links tested
+- [ ] Found errors fixed
+- [ ] Release v1.0.0 created
+- [ ] Shared in communities
 
-### В процессе развития
+### During Development
 
-- [ ] Добавляются фотографии
-- [ ] Собирается обратная связь
-- [ ] Обрабатываются Issues
-- [ ] Обновляется документация
-- [ ] Расширяется содержание
+- [ ] Photos being added
+- [ ] Feedback being collected
+- [ ] Issues being processed
+- [ ] Documentation being updated
+- [ ] Content being expanded
 
-## Дополнительные файлы (рекомендуется создать)
+## Additional Files (Recommended to Create)
 
 ### .gitignore
 ```
-# Временные файлы
+# Temporary files
 *~
 *.swp
 *.swo
 .DS_Store
 Thumbs.db
 
-# Резервные копии
+# Backups
 *.bak
 *.backup
 
-# Черновики
+# Drafts
 drafts/
 private/
 notes/
 
-# Большие файлы
+# Large files
 *.mp4
 *.avi
 ```
 
 ### CONTRIBUTING.md
-Руководство для участников:
-- Как предложить изменения
-- Стиль оформления
-- Процесс review
+Contributor guide:
+- How to suggest changes
+- Formatting style
+- Review process
 - Code of conduct
 
 ### CHANGELOG.md
-История изменений:
-- Версия 1.0.0 - начальная версия
-- Последующие обновления
+Change history:
+- Version 1.0.0 - initial version
+- Subsequent updates
 
 ### .github/ISSUE_TEMPLATE/
-Шаблоны для Issues:
+Issue templates:
 - bug_report.md
 - feature_request.md
 - question.md
 
-## Как использовать этот список
+## How to Use This List
 
-### Для создателя репозитория:
+### For Repository Creator:
 
-1. **Используйте как чек-лист** - отмечайте выполненное
-2. **Следуйте приоритетам** - начните с высокого приоритета
-3. **Отслеживайте прогресс** - видите, что уже сделано
+1. **Use as checklist** - mark completed items
+2. **Follow priorities** - start with high priority
+3. **Track progress** - see what's done
 
-### Для участников:
+### For Contributors:
 
-1. **Ознакомьтесь со структурой** - поймете организацию
-2. **Найдите что улучшить** - увидите пробелы
-3. **Предложите дополнения** - через Issues или PR
+1. **Familiarize with structure** - understand organization
+2. **Find improvement areas** - see gaps
+3. **Suggest additions** - via Issues or PR
 
-### Для пользователей:
+### For Users:
 
-1. **Быстрая навигация** - найдете нужный раздел
-2. **Понимание структуры** - узнаете, где что искать
-3. **Статус разделов** - увидите готовность материалов
+1. **Quick navigation** - find needed section
+2. **Understand structure** - know where to look
+3. **Section status** - see material readiness
 
-## Техническая информация
+## Technical Information
 
-### Форматирование
+### Formatting
 
-**Markdown особенности:**
-- Заголовки: # H1, ## H2, ### H3
-- Списки: -, *, 1.
-- Таблицы: | Column | Column |
-- Код: ```язык ... ```
-- Ссылки: [текст](url)
-- Изображения: ![alt](url)
+**Markdown features:**
+- Headers: # H1, ## H2, ### H3
+- Lists: -, *, 1.
+- Tables: | Column | Column |
+- Code: ```language ... ```
+- Links: [text](url)
+- Images: ![alt](url)
 
-**Специальные блоки:**
-- ✅ Готово
-- ⚠️ Внимание
-- ❌ Не делать
-- 🔴 Критично
-- 🟡 Важно
-- 🔵 Опционально
+**Special blocks:**
+- ✅ Ready
+- ⚠️ Warning
+- ❌ Don't do
+- 🔴 Critical
+- 🟡 Important
+- 🔵 Optional
 
-### Размеры файлов
+### File Sizes
 
-**GitHub ограничения:**
-- Файл: до 100 MB
-- Репозиторий: рекомендуется до 1 GB
-- Наши файлы: ~230 KB - это отлично!
+**GitHub limitations:**
+- File: up to 100 MB
+- Repository: recommended up to 1 GB
+- Our files: ~230 KB - excellent!
 
-**Рекомендации:**
-- Текст: любой размер (разумный)
-- Изображения: до 2-3 MB каждое
-- Видео: использовать внешние хостинги (YouTube)
+**Recommendations:**
+- Text: any size (reasonable)
+- Images: up to 2-3 MB each
+- Videos: use external hosting (YouTube)
 
-## Заключение
+## Conclusion
 
-У вас есть полный набор профессионально подготовленной документации для создания репозитория на GitHub.
+You have a complete set of professionally prepared documentation for creating a GitHub repository.
 
-**Все файлы:**
-- ✅ Готовы к публикации
-- ✅ Отформатированы в Markdown
-- ✅ Структурированы логично
-- ✅ Содержат практическую информацию
-- ✅ Включают инструкции для пользователей
+**All files:**
+- ✅ Ready for publication
+- ✅ Formatted in Markdown
+- ✅ Logically structured
+- ✅ Contain practical information
+- ✅ Include user instructions
 
-**Следующий шаг:** Откройте [SETUP_GUIDE.md](SETUP_GUIDE.md) и начинайте создание репозитория!
+**Next step:** Open [SETUP_GUIDE.md](welding_setup_guide.md) and start creating the repository!
 
 ---
 
-**Обновления этого файла:**
-- Версия 1.0 - Ноябрь 2025 - Первая версия
-- При добавлении новых файлов обновляйте этот список
+**Updates to this file:**
+- Version 1.0 - November 2025 - First version
+- Update this list when adding new files
 
-**Вопросы:** Создайте Issue с тегом "documentation"
+**Questions:** Create Issue with "documentation" tag

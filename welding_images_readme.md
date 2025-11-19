@@ -280,4 +280,4 @@ For image questions:
 
 **Thank you for contributing to the project!**
 
-Качественные иллюстрации делают документацию понятной и доступной для всех уровней подготовки.
+Quality illustrations make documentation understandable and accessible to all skill levels.
