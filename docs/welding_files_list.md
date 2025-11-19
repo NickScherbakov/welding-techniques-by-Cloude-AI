@@ -420,8 +420,8 @@ Issue templates:
 - Lists: -, *, 1.
 - Tables: | Column | Column |
 - Code: ```language ... ```
-- Links: [text](url)
-- Images: ![alt](url)
+- Links: `[text](url)`
+- Images: `![alt](url)`
 
 **Special blocks:**
 - ✅ Ready

@@ -401,4 +401,4 @@ where d = electrode diameter
 
 ---
 
-**Next step:** After equipment setup, proceed to [Welding Parameters](welding-parameters.md) section to study specific operating modes.
+**Next step:** After equipment setup, proceed to [Welding Parameters](welding_params.md) section to study specific operating modes.
