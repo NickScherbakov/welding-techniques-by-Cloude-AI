@@ -1,89 +1,89 @@
 # Welding Techniques Repository
 
-Репозиторий практических решений и нестандартных подходов в сварочных технологиях.
+Repository of practical solutions and unconventional approaches in welding technologies.
 
-## О проекте
+## About the Project
 
-Этот репозиторий содержит документацию по нестандартным, но эффективным сварочным технологиям, основанным на практическом опыте и теоретическом анализе. Цель проекта - поделиться работающими решениями для сложных производственных задач.
+This repository contains documentation on unconventional yet effective welding technologies based on practical experience and theoretical analysis. The project's goal is to share working solutions for complex production challenges.
 
-## Содержание
+## Contents
 
 ### 🔥 [TIG-source with Coated Electrodes](./TIG-source-with-coated-electrodes/)
 
-Использование источника питания для TIG-сварки с покрытыми электродами (MMA/SMAW) для сварки тонкостенных деталей с возможностью работы "точка в точку" и "с отрывом".
+Using a TIG welding power source with coated electrodes (MMA/SMAW) for welding thin-walled parts with the capability for "point-to-point" and "intermittent" operation.
 
-**Основные темы:**
-- Теоретическое обоснование метода
-- Настройка оборудования
-- Параметры сварки для различных толщин металла
-- Решение типичных проблем
+**Main Topics:**
+- Theoretical justification of the method
+- Equipment setup
+- Welding parameters for various metal thicknesses
+- Troubleshooting common problems
 
-**Применимость:** Сварка тонкостенных стальных конструкций (1-2 мм) электродами с основным покрытием при необходимости точного дозирования тепловложения.
+**Applicability:** Welding thin-walled steel structures (1-2 mm) with basic coated electrodes when precise heat input control is required.
 
 ### 📚 Other Techniques
 
-*Раздел в разработке. Будут добавлены дополнительные методики по мере накопления практического опыта.*
+*Section under development. Additional methodologies will be added as practical experience accumulates.*
 
-## Для кого этот репозиторий
+## Who This Repository Is For
 
-- Сварщики, работающие с нестандартными задачами
-- Инженеры-технологи сварочного производства
-- Мастера участков, ищущие оптимальные решения
-- Студенты и преподаватели сварочных специальностей
-- Энтузиасты, экспериментирующие с оборудованием
+- Welders working with unconventional tasks
+- Welding production engineers and technologists
+- Shop supervisors seeking optimal solutions
+- Students and instructors of welding specialties
+- Enthusiasts experimenting with equipment
 
-## Как использовать документацию
+## How to Use the Documentation
 
-1. **Ознакомьтесь с теорией** - понимание физики процесса критично для безопасных экспериментов
-2. **Проверьте совместимость оборудования** - убедитесь, что ваше оборудование имеет необходимые характеристики
-3. **Начните с пробных образцов** - всегда тестируйте на отходах перед работой с реальными деталями
-4. **Документируйте свои параметры** - записывайте успешные настройки для повторения результата
-5. **Делитесь опытом** - создавайте Issues или Pull Requests с вашими дополнениями
+1. **Review the theory** - understanding the physics of the process is critical for safe experimentation
+2. **Check equipment compatibility** - ensure your equipment has the necessary characteristics
+3. **Start with test samples** - always test on scrap material before working on actual parts
+4. **Document your parameters** - record successful settings to reproduce results
+5. **Share your experience** - create Issues or Pull Requests with your additions
 
-## Важные замечания
+## Important Notes
 
-⚠️ **Безопасность превыше всего:**
-- Все описанные методы требуют опыта работы со сварочным оборудованием
-- Соблюдайте правила техники безопасности
-- Используйте соответствующие средства защиты
-- При работе с нестандартными режимами контролируйте нагрев оборудования
+⚠️ **Safety First:**
+- All described methods require experience working with welding equipment
+- Follow safety regulations
+- Use appropriate protective equipment
+- When working with non-standard modes, monitor equipment heating
 
-⚠️ **Ответственность:**
-- Автор не несет ответственности за результаты применения описанных методик
-- Каждый случай уникален - адаптируйте параметры под свои условия
-- Проводите испытания сварных соединений согласно требованиям
+⚠️ **Liability:**
+- The author assumes no responsibility for the results of applying the described techniques
+- Each case is unique - adapt parameters to your conditions
+- Conduct weld joint testing according to requirements
 
-## Вклад в проект
+## Contributing to the Project
 
-Приветствуются:
-- ✅ Дополнения и уточнения к существующим методикам
-- ✅ Фотографии швов и результатов
-- ✅ Новые нестандартные решения
-- ✅ Исправления ошибок
-- ✅ Переводы на другие языки
+Welcome contributions:
+- ✅ Additions and clarifications to existing methodologies
+- ✅ Photographs of welds and results
+- ✅ New unconventional solutions
+- ✅ Bug fixes
+- ✅ Translations to other languages
 
-**Как внести вклад:**
-1. Fork репозитория
-2. Создайте ветку для ваших изменений
-3. Оформите Pull Request с описанием изменений
+**How to Contribute:**
+1. Fork the repository
+2. Create a branch for your changes
+3. Submit a Pull Request with a description of changes
 
-## Благодарности
+## Acknowledgments
 
-Теоретическая систематизация разделов выполнена при консультационной поддержке Claude AI (Anthropic) в части физики сварочных процессов и характеристик источников питания.
+The theoretical systematization of sections was performed with consultative support from Claude AI (Anthropic) regarding the physics of welding processes and power source characteristics.
 
-Практическая реализация, экспериментальная проверка и все практические рекомендации основаны на реальном производственном опыте участников проекта.
+Practical implementation, experimental verification, and all practical recommendations are based on real production experience of project participants.
 
-## Лицензия
+## License
 
-Этот проект распространяется под лицензией [CC BY-SA 4.0](LICENSE) - вы можете свободно использовать, модифицировать и распространять материалы с указанием авторства и сохранением той же лицензии.
+This project is distributed under the [CC BY-SA 4.0](LICENSE) license - you can freely use, modify, and distribute materials with attribution and under the same license.
 
-## Контакты и обратная связь
+## Contact and Feedback
 
-- **Issues:** Используйте раздел Issues для вопросов и обсуждений
-- **Discussions:** Для общих дискуссий о сварочных технологиях
+- **Issues:** Use the Issues section for questions and discussions
+- **Discussions:** For general discussions about welding technologies
 
 ---
 
-**Версия:** 1.0  
-**Последнее обновление:** Ноябрь 2025  
-**Язык:** Русский (English version - in progress)
+**Version:** 1.0  
+**Last Updated:** November 2025  
+**Language:** English

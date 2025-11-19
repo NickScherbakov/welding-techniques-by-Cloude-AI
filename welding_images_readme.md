@@ -1,283 +1,283 @@
-# Папка images
+# Images Folder
 
-Эта папка предназначена для хранения фотографий, схем и иллюстраций, относящихся к методике сварки источником TIG с покрытыми электродами.
+This folder is for storing photographs, diagrams, and illustrations related to welding with TIG power source and coated electrodes.
 
-## Рекомендуемая структура
+## Recommended Structure
 
 ```
 images/
-├── equipment/              # Фотографии оборудования
-│   ├── power-source.jpg    # Источник питания с настройками
-│   ├── control-panel.jpg   # Панель управления
+├── equipment/              # Equipment photographs
+│   ├── power-source.jpg    # Power source with settings
+│   ├── control-panel.jpg   # Control panel
 │   ├── electrode-holder.jpg
 │   └── ground-clamp.jpg
 │
-├── setup/                  # Процесс настройки
-│   ├── vah-setting.jpg     # Настройка ВАХ
+├── setup/                  # Setup process
+│   ├── vah-setting.jpg     # V-A curve setting
 │   ├── current-setting.jpg
 │   ├── hf-activation.jpg
 │   └── polarity-check.jpg
 │
-├── electrodes/             # Электроды
+├── electrodes/             # Electrodes
 │   ├── lb52u-package.jpg
 │   ├── electrode-tip-new.jpg
-│   ├── electrode-tip-glazed.jpg  # Остекленевшее покрытие
+│   ├── electrode-tip-glazed.jpg  # Vitrified coating
 │   └── electrode-sizes.jpg
 │
-├── technique/              # Техника сварки
-│   ├── arc-length.jpg      # Демонстрация длины дуги
+├── technique/              # Welding technique
+│   ├── arc-length.jpg      # Arc length demonstration
 │   ├── electrode-angle.jpg
 │   ├── hand-position.jpg
 │   └── pulse-technique.jpg
 │
-├── welds/                  # Примеры швов
+├── welds/                  # Weld examples
 │   ├── good-weld-1mm.jpg
 │   ├── good-weld-1.5mm.jpg
 │   ├── good-weld-2mm.jpg
-│   ├── cross-section.jpg   # Поперечный разрез шва
+│   ├── cross-section.jpg   # Weld cross-section
 │   └── macro-structure.jpg
 │
-├── defects/                # Дефекты и проблемы
-│   ├── burn-through.jpg    # Прожоги
-│   ├── lack-of-fusion.jpg  # Непровары
+├── defects/                # Defects and problems
+│   ├── burn-through.jpg    # Burn-through
+│   ├── lack-of-fusion.jpg  # Lack of penetration
 │   ├── excessive-spatter.jpg
 │   ├── porosity.jpg
 │   └── cracks.jpg
 │
-├── diagrams/               # Схемы и диаграммы
-│   ├── vah-curves.png      # Графики ВАХ
+├── diagrams/               # Diagrams and charts
+│   ├── vah-curves.png      # V-A curve graphs
 │   ├── connection-diagram.png
 │   ├── heat-input-graph.png
 │   └── pulse-timing.png
 │
-└── safety/                 # Техника безопасности
-    ├── ppe-full.jpg        # Полный комплект СИЗ
+└── safety/                 # Safety
+    ├── ppe-full.jpg        # Full PPE set
     ├── welding-mask.jpg
     ├── gloves.jpg
     └── ventilation.jpg
 ```
 
-## Рекомендации по фотографиям
+## Photography Recommendations
 
-### Технические требования
+### Technical Requirements
 
-**Формат:**
-- Предпочтительно: JPEG для фотографий, PNG для схем
-- Разрешение: минимум 1920x1080 пикселей
-- Качество: высокое, без сжатия с потерями
+**Format:**
+- Preferred: JPEG for photos, PNG for diagrams
+- Resolution: minimum 1920x1080 pixels
+- Quality: high, without lossy compression
 
-**Освещение:**
-- Хорошее равномерное освещение
-- Избегайте бликов и теней
-- Для сварочной дуги: затемните для видимости деталей
+**Lighting:**
+- Good even lighting
+- Avoid glare and shadows
+- For welding arc: darken to see details
 
-**Композиция:**
-- Четкий фокус на важных деталях
-- Минимум отвлекающих элементов
-- Используйте линейку или монету для масштаба
+**Composition:**
+- Clear focus on important details
+- Minimal distracting elements
+- Use ruler or coin for scale
 
-### Что фотографировать
+### What to Photograph
 
-#### 1. Оборудование
-- Источник питания с видимыми настройками
-- Панель управления с крупным планом параметров
-- Электрододержатель
-- Расположение заземления
+#### 1. Equipment
+- Power source with visible settings
+- Control panel with close-up of parameters
+- Electrode holder
+- Ground placement
 
-#### 2. Настройка ВАХ
-- Экран или ручки с установленным значением В/А
-- Пример "штыковой" и "наклонной" характеристики
-- Меню настроек источника
+#### 2. V-A Curve Setup
+- Screen or knobs with V/A value set
+- Example of "flat" and "sloped" characteristics
+- Power source settings menu
 
-#### 3. Электроды
-- Новый электрод LB52U
-- Остекленевший кончик после первого зажигания
-- Сравнение различных диаметров
-- Правильная и неправильная заточка кончика (если применимо)
+#### 3. Electrodes
+- New LB52U electrode
+- Vitrified tip after first ignition
+- Comparison of different diameters
+- Proper and improper tip sharpening (if applicable)
 
-#### 4. Техника сварки
-- Длина дуги (использовать стрелки или разметку)
-- Угол наклона электрода (с транспортиром или разметкой углов)
-- Положение рук сварщика
-- Техника "с отрывами" (серия фото)
+#### 4. Welding Technique
+- Arc length (use arrows or markings)
+- Electrode angle (with protractor or angle markings)
+- Welder's hand position
+- Intermittent technique (photo series)
 
-#### 5. Качественные швы
-- Швы на металле 1, 1.5, 2 мм
-- Различные типы соединений (стыковое, угловое, тавровое)
-- Поперечный разрез шва с видимым проплавлением
-- Макроструктура (после травления)
+#### 5. Quality Welds
+- Welds on 1, 1.5, 2 mm metal
+- Different joint types (butt, corner, T-joint)
+- Weld cross-section showing penetration
+- Macrostructure (after etching)
 
-#### 6. Дефекты
-- Прожоги
-- Непровары
-- Избыточные брызги
-- Поры
-- Трещины
-- Неравномерный шов
+#### 6. Defects
+- Burn-through
+- Lack of penetration
+- Excessive spatter
+- Porosity
+- Cracks
+- Uneven bead
 
-#### 7. Схемы и диаграммы
-- График ВАХ (жесткая vs наклонная)
-- Схема подключения оборудования
-- Диаграмма импульсов и пауз
-- Таблицы режимов (в графическом виде)
+#### 7. Diagrams and Charts
+- V-A curve graph (flat vs sloped)
+- Equipment connection diagram
+- Pulse and pause timing diagram
+- Mode tables (in graphical form)
 
-### Правила оформления
+### Formatting Rules
 
-**Подписи к фотографиям:**
+**Photo Captions:**
 ```markdown
-![Описание](images/папка/файл.jpg)
-*Рис. X. Подробное описание того, что изображено*
+![Description](images/folder/file.jpg)
+*Fig. X. Detailed description of what is shown*
 ```
 
-**Маркировка на фотографиях:**
-- Используйте стрелки для указания важных деталей
-- Добавляйте текстовые пометки (размеры, параметры)
-- Используйте контрастные цвета (красный, желтый на темном фоне)
+**Markings on Photos:**
+- Use arrows to indicate important details
+- Add text labels (dimensions, parameters)
+- Use contrasting colors (red, yellow on dark background)
 
-**Масштаб:**
-- Всегда включайте линейку или известный предмет для масштаба
-- Указывайте реальные размеры в описании
+**Scale:**
+- Always include ruler or known object for scale
+- Specify actual dimensions in description
 
-## Авторские права на изображения
+## Image Copyrights
 
-### Ваши фотографии
-Если вы добавляете собственные фотографии:
-- Убедитесь, что у вас есть право на публикацию
-- Фотографии должны соответствовать лицензии репозитория (CC BY-SA 4.0)
-- Укажите авторство в commit message
+### Your Photos
+If adding your own photographs:
+- Ensure you have right to publish
+- Photos must comply with repository license (CC BY-SA 4.0)
+- Credit authorship in commit message
 
-### Чужие изображения
-Если используете изображения из других источников:
-- Получите разрешение автора
-- Укажите источник и автора
-- Убедитесь в совместимости лицензий
-- **НЕ используйте изображения с коммерческих сайтов без разрешения**
+### Others' Images
+If using images from other sources:
+- Obtain author's permission
+- Credit source and author
+- Ensure license compatibility
+- **DO NOT use images from commercial sites without permission**
 
-## Шаблон описания фотографии
+## Photo Description Template
 
-При добавлении фотографий создайте файл с описанием:
+When adding photos, create description file:
 
 ```markdown
-# Описание изображения
+# Image Description
 
-**Файл:** filename.jpg  
-**Дата:** ДД.ММ.ГГГГ  
-**Автор:** Ваше имя или псевдоним  
-**Лицензия:** CC BY-SA 4.0
+**File:** filename.jpg  
+**Date:** DD.MM.YYYY  
+**Author:** Your name or pseudonym  
+**License:** CC BY-SA 4.0
 
-## Параметры съемки
-- Камера/телефон: _________
-- Освещение: _________
-- Обработка: _________
+## Shooting Parameters
+- Camera/phone: _________
+- Lighting: _________
+- Processing: _________
 
-## Описание
-Подробное описание того, что изображено на фотографии.
+## Description
+Detailed description of what is shown in the photo.
 
-## Параметры сварки (если применимо)
-- Материал: _________
-- Толщина: _____ мм
-- Электрод: LB52U _____ мм
-- Ток: _____ А
-- ВАХ: _____ В/А
-- Техника: _________
+## Welding Parameters (if applicable)
+- Material: _________
+- Thickness: _____ mm
+- Electrode: LB52U _____ mm
+- Current: _____ A
+- V-A curve: _____ V/A
+- Technique: _________
 
-## Примечания
-Любые дополнительные комментарии, особенности, на что обратить внимание.
+## Notes
+Any additional comments, features, what to pay attention to.
 ```
 
-## Примеры хороших фотографий
+## Examples of Good Photos
 
-### Фото оборудования
-✅ **Хорошо:**
-- Четкое изображение панели управления
-- Видны все настройки и индикаторы
-- Хорошее освещение
-- Есть указание значений параметров
+### Equipment Photos
+✅ **Good:**
+- Clear image of control panel
+- All settings and indicators visible
+- Good lighting
+- Parameter values indicated
 
-❌ **Плохо:**
-- Размытое изображение
-- Блики на экране
-- Не видны важные детали
-- Нет контекста
+❌ **Bad:**
+- Blurred image
+- Screen glare
+- Important details not visible
+- No context
 
-### Фото швов
-✅ **Хорошо:**
-- Шов очищен от шлака
-- Видна структура и форма
-- Есть линейка для масштаба
-- Указаны параметры сварки
+### Weld Photos
+✅ **Good:**
+- Weld cleaned of slag
+- Structure and shape visible
+- Ruler for scale included
+- Welding parameters specified
 
-❌ **Плохо:**
-- Шов в шлаке
-- Плохое освещение
-- Нет масштаба
-- Неизвестные параметры
+❌ **Bad:**
+- Weld covered in slag
+- Poor lighting
+- No scale
+- Unknown parameters
 
-## Как добавить изображения
+## How to Add Images
 
-1. **Создайте качественные фотографии** согласно рекомендациям
-2. **Оптимизируйте размер** (не более 2-3 МБ на файл)
-3. **Назовите файлы осмысленно** (например: `weld-1mm-50A-good.jpg`)
-4. **Разместите в соответствующей папке**
-5. **Добавьте описание** в markdown-документах
-6. **Создайте Pull Request** с описанием добавляемых изображений
+1. **Create quality photos** per recommendations
+2. **Optimize size** (no more than 2-3 MB per file)
+3. **Name files meaningfully** (e.g., `weld-1mm-50A-good.jpg`)
+4. **Place in appropriate folder**
+5. **Add description** in markdown documents
+6. **Create Pull Request** with description of added images
 
-## Обработка изображений
+## Image Processing
 
-### Разрешенная обработка
-✅ Можно:
-- Кадрирование
-- Коррекция яркости/контраста
-- Добавление стрелок и подписей
-- Масштабирование (только уменьшение)
-- Конвертация формата
+### Allowed Processing
+✅ Allowed:
+- Cropping
+- Brightness/contrast correction
+- Adding arrows and labels
+- Scaling (reduction only)
+- Format conversion
 
-❌ Нельзя:
-- Существенное изменение цветов
-- Удаление дефектов сварки
-- Монтаж/композиция из нескольких фото без указания
-- Применение фильтров, искажающих реальность
+❌ Not allowed:
+- Significant color alteration
+- Removing weld defects
+- Montage/composition from multiple photos without indication
+- Applying reality-distorting filters
 
-### Рекомендуемые инструменты
+### Recommended Tools
 
-**Бесплатные:**
-- GIMP (многофункциональный редактор)
-- Paint.NET (простой редактор для Windows)
-- Inkscape (для векторных схем)
-- draw.io или diagrams.net (для диаграмм)
+**Free:**
+- GIMP (multifunctional editor)
+- Paint.NET (simple editor for Windows)
+- Inkscape (for vector diagrams)
+- draw.io or diagrams.net (for diagrams)
 
-**Онлайн:**
-- Photopea (аналог Photoshop)
-- Canva (для добавления аннотаций)
+**Online:**
+- Photopea (Photoshop analog)
+- Canva (for adding annotations)
 
-## Вклад в коллекцию изображений
+## Contributing to Image Collection
 
-Мы приветствуем вклад качественных фотографий и схем!
+We welcome contributions of quality photos and diagrams!
 
-**Особенно нужны:**
-- [ ] Фотографии различных источников TIG с настройками ВАХ
-- [ ] Примеры швов на разных толщинах металла
-- [ ] Макроструктура швов (поперечные разрезы)
-- [ ] Различные дефекты с указанием причин
-- [ ] Схемы подключения оборудования
-- [ ] Диаграммы процесса (импульсы, тепловложение)
-- [ ] Фотографии процесса HF-поджига (если возможно снять)
+**Especially needed:**
+- [ ] Photos of various TIG power sources with V-A curve settings
+- [ ] Weld examples on different metal thicknesses
+- [ ] Weld macrostructure (cross-sections)
+- [ ] Various defects with cause indication
+- [ ] Equipment connection diagrams
+- [ ] Process diagrams (pulses, heat input)
+- [ ] HF ignition process photos (if possible to capture)
 
-**Как внести вклад:**
-1. Сделайте качественные фотографии
-2. Подготовьте описание
-3. Создайте Pull Request
-4. Дождитесь review и публикации
+**How to contribute:**
+1. Take quality photos
+2. Prepare description
+3. Create Pull Request
+4. Wait for review and publication
 
-## Контакты
+## Contacts
 
-По вопросам изображений:
-- Создайте Issue с тегом "images"
-- Опишите, какие фотографии нужны
-- Или предложите свои фотографии
+For image questions:
+- Create Issue with "images" tag
+- Describe what photos are needed
+- Or suggest your photos
 
 ---
 
-**Спасибо за вклад в развитие проекта!**
+**Thank you for contributing to the project!**
 
 Качественные иллюстрации делают документацию понятной и доступной для всех уровней подготовки.

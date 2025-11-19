@@ -1,50 +1,50 @@
 # Creative Commons Attribution-ShareAlike 4.0 International
 
-## Краткое изложение лицензии
+## License Summary
 
-Вы можете свободно:
+You are free to:
 
-- **Делиться** — копировать и распространять материал на любом носителе и в любом формате
-- **Адаптировать** — изменять, преобразовывать материал и создавать на его основе новые произведения
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
-для любых целей, даже коммерческих.
+for any purpose, even commercially.
 
-## При соблюдении следующих условий:
+## Under the following terms:
 
-**Attribution (Атрибуция)** — Вы должны предоставить соответствующее указание авторства, ссылку на лицензию и указать, были ли внесены изменения. Вы можете это сделать любым разумным способом, но не таким образом, который подразумевает, что лицензиар одобряет вас или ваш способ использования произведения.
+**Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-**ShareAlike (На тех же условиях)** — Если вы изменяете, преобразовываете или создаёте новое произведение на основе этого произведения, вы должны распространять ваш вклад под той же лицензией, что и оригинал.
+**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-**Никаких дополнительных ограничений** — Вы не можете применять юридические ограничения или технологические меры защиты, которые запрещают другим делать то, что разрешено лицензией.
+**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-## Отказ от ответственности
+## Disclaimer
 
-Этот материал предоставляется на условиях "как есть" без каких-либо гарантий, явных или подразумеваемых, включая, помимо прочего, гарантии пригодности для конкретной цели.
+This material is provided "as is" without warranties of any kind, either express or implied, including but not limited to warranties of fitness for a particular purpose.
 
-**Автор не несет ответственности за:**
-- Результаты применения описанных методик
-- Повреждение оборудования
-- Травмы или ущерб здоровью
-- Дефекты сварных соединений
-- Любые другие последствия использования информации
+**The author is not responsible for:**
+- Results of applying the described techniques
+- Equipment damage
+- Injury or health damage
+- Weld defects
+- Any other consequences of using the information
 
-**Пользователь несет полную ответственность за:**
-- Соблюдение техники безопасности
-- Правильную настройку оборудования
-- Контроль качества сварных соединений
-- Соответствие результатов техническим требованиям
+**The user assumes full responsibility for:**
+- Following safety regulations
+- Proper equipment setup
+- Weld quality control
+- Compliance of results with technical requirements
 
-## Применение лицензии
+## License Application
 
-Эта лицензия применяется ко всем материалам данного репозитория, включая:
-- Текстовую документацию
-- Таблицы и схемы
-- Фотографии (если не указано иное)
-- Примеры кода (если присутствуют)
+This license applies to all materials in this repository, including:
+- Text documentation
+- Tables and diagrams
+- Photographs (unless otherwise noted)
+- Code examples (if present)
 
 ---
 
-## Полный текст лицензии
+## Full License Text
 
 Creative Commons Attribution-ShareAlike 4.0 International Public License
 
