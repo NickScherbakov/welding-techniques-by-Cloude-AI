@@ -1,408 +1,408 @@
-# Параметры сварки
-
-## Базовые таблицы режимов
-
-### Таблица 1: Параметры в зависимости от диаметра электрода
-
-| Диаметр электрода (мм) | Сила тока (А) | Напряжение дуги (В) | Длина дуги (мм) | Скорость сварки (мм/с) |
-|------------------------|---------------|---------------------|-----------------|------------------------|
-| 2,0 | 40-70 | 18-24 | 1-2 | 3-5 |
-| 2,5 | 50-80 | 20-26 | 1-2 | 3-5 |
-| 3,0 | 60-90 | 22-28 | 2-3 | 4-6 |
+# Welding Parameters
+
+## Basic Mode Tables
+
+### Table 1: Parameters by Electrode Diameter
+
+| Electrode Diameter (mm) | Current (A) | Arc Voltage (V) | Arc Length (mm) | Welding Speed (mm/s) |
+|------------------------|-------------|-----------------|-----------------|----------------------|
+| 2.0 | 40-70 | 18-24 | 1-2 | 3-5 |
+| 2.5 | 50-80 | 20-26 | 1-2 | 3-5 |
+| 3.0 | 60-90 | 22-28 | 2-3 | 4-6 |
 
-### Таблица 2: Параметры в зависимости от толщины металла
-
-| Толщина металла (мм) | Диаметр электрода (мм) | Рекомендуемый ток (А) | Техника сварки |
-|----------------------|------------------------|----------------------|----------------|
-| 1,0 | 2,0 | 30-40 | С отрывами, короткие импульсы |
-| 1,2 | 2,0 | 35-45 | С отрывами или непрерывно |
-| 1,5 | 2,0-2,5 | 40-50 | С отрывами или непрерывно |
-| 1,8 | 2,5 | 45-55 | Непрерывно, возможны отрывы |
-| 2,0 | 2,5 | 50-60 | Непрерывно |
-| 2,5+ | 2,5-3,0 | 60-70 | Непрерывно |
-
-### Таблица 3: Параметры для различных типов соединений
-
-| Тип соединения | Толщина (мм) | Зазор (мм) | Ток (А) | Особенности |
-|----------------|--------------|------------|---------|-------------|
-| Стыковое | 1,0 | 0 | 30-40 | Тщательная прихватка |
-| Стыковое | 1,5 | 0-0,3 | 45-50 | Без разделки кромок |
-| Стыковое | 2,0 | 0-0,5 | 50-60 | Возможна разделка под углом |
-| Угловое | 1,0+1,0 | - | 35-45 | Снизу вверх |
-| Угловое | 1,5+1,5 | - | 45-55 | Любое направление |
-| Угловое | 2,0+2,0 | - | 55-65 | Любое направление |
-| Тавровое | 1,0+1,5 | - | 40-50 | Угол 45° к обеим деталям |
-| Тавровое | 1,5+2,0 | - | 50-60 | Больше тепла к толстой детали |
-| Нахлесточное | 1,0+1,0 | - | 35-45 | Дуга на нижнюю деталь |
-| Нахлесточное | 1,5+1,5 | - | 45-55 | Равномерное проплавление |
-
-## Техника сварки
-
-### Основные положения
-
-#### 1. Длина дуги
-
-**КРИТИЧЕСКИ ВАЖНО:** Держите максимально короткую дугу!
-
-- **Оптимально:** 1-2 мм (для электродов 2-2,5 мм)
-- **Максимум:** 3 мм (для электрода 3 мм)
-- **Слишком короткая:** риск залипания, но с HF-поджигом проще избежать
-- **Слишком длинная:** нестабильная дуга, много брызг, непровары
-
-**Визуальный контроль:**
-- Правильная дуга: яркое пятно, четкие границы
-- Слишком длинная: расплывчатое пятно, треск, искры
-- Слишком короткая: электрод "вязнет" в ванне
+### Table 2: Parameters by Metal Thickness
+
+| Metal Thickness (mm) | Electrode Diameter (mm) | Recommended Current (A) | Welding Technique |
+|---------------------|------------------------|------------------------|-------------------|
+| 1.0 | 2.0 | 30-40 | Intermittent, short pulses |
+| 1.2 | 2.0 | 35-45 | Intermittent or continuous |
+| 1.5 | 2.0-2.5 | 40-50 | Intermittent or continuous |
+| 1.8 | 2.5 | 45-55 | Continuous, intermittent possible |
+| 2.0 | 2.5 | 50-60 | Continuous |
+| 2.5+ | 2.5-3.0 | 60-70 | Continuous |
+
+### Table 3: Parameters for Different Joint Types
+
+| Joint Type | Thickness (mm) | Gap (mm) | Current (A) | Notes |
+|-----------|---------------|----------|-------------|-------|
+| Butt | 1.0 | 0 | 30-40 | Thorough tack welding |
+| Butt | 1.5 | 0-0.3 | 45-50 | No edge prep |
+| Butt | 2.0 | 0-0.5 | 50-60 | Edge bevel possible |
+| Corner | 1.0+1.0 | - | 35-45 | Upward direction |
+| Corner | 1.5+1.5 | - | 45-55 | Any direction |
+| Corner | 2.0+2.0 | - | 55-65 | Any direction |
+| T-joint | 1.0+1.5 | - | 40-50 | 45° angle to both parts |
+| T-joint | 1.5+2.0 | - | 50-60 | More heat to thick part |
+| Lap | 1.0+1.0 | - | 35-45 | Arc on lower part |
+| Lap | 1.5+1.5 | - | 45-55 | Uniform penetration |
+
+## Welding Technique
+
+### Basic Principles
+
+#### 1. Arc Length
+
+**CRITICALLY IMPORTANT:** Maintain the shortest possible arc!
+
+- **Optimal:** 1-2 mm (for 2-2.5 mm electrodes)
+- **Maximum:** 3 mm (for 3 mm electrode)
+- **Too short:** sticking risk, but easier to avoid with HF ignition
+- **Too long:** unstable arc, excessive spatter, lack of penetration
+
+**Visual control:**
+- Correct arc: bright spot, clear boundaries
+- Too long: blurred spot, crackling, sparks
+- Too short: electrode "bogs down" in puddle
 
-#### 2. Угол наклона электрода
-
-**Нижнее положение:**
-- Угол к поверхности: 60-70°
-- Наклон: назад от направления сварки на 10-20°
-- Поперечные колебания: минимальные или отсутствуют (для тонкого металла)
+#### 2. Electrode Angle
+
+**Flat position:**
+- Angle to surface: 60-70°
+- Tilt: backward from welding direction by 10-20°
+- Transverse motion: minimal or none (for thin metal)
 
-**Вертикальное положение:**
-- Снизу вверх: угол 70-80° к поверхности
-- Сверху вниз: не рекомендуется для тонкого металла
-- Короткие дуги, импульсы
+**Vertical position:**
+- Upward: 70-80° angle to surface
+- Downward: not recommended for thin metal
+- Short arcs, pulses
 
-**Горизонтальное положение:**
-- Угол: 70-80° к вертикальной стенке
-- Слегка вниз для предотвращения стекания
+**Horizontal position:**
+- Angle: 70-80° to vertical wall
+- Slightly downward to prevent sagging
 
-**Потолочное положение:**
-- Избегайте, если возможно
-- Угол: 80-90° к поверхности
-- Только короткие импульсы
-- Минимальный ток
-
-#### 3. Скорость сварки
-
-**Общее правило:**
-- Тоньше металл → быстрее сварка
-- Наблюдайте за сварочной ванной
-- Равномерная скорость = равномерный шов
+**Overhead position:**
+- Avoid if possible
+- Angle: 80-90° to surface
+- Only short pulses
+- Minimum current
+
+#### 3. Welding Speed
+
+**General rule:**
+- Thinner metal → faster welding
+- Watch the weld pool
+- Uniform speed = uniform bead
 
-**Признаки правильной скорости:**
-- Ванна перемещается за электродом равномерно
-- Ширина шва постоянная
-- Нет прожогов и непроваров
+**Signs of correct speed:**
+- Pool moves evenly behind electrode
+- Constant bead width
+- No burn-through or lack of penetration
 
-**Слишком быстро:**
-- Узкий выпуклый валик
-- Непровары
-- Несплавление кромок
+**Too fast:**
+- Narrow convex bead
+- Lack of penetration
+- Edge fusion failure
 
-**Слишком медленно:**
-- Широкий плоский валик
-- Риск прожогов
-- Перегрев металла
+**Too slow:**
+- Wide flat bead
+- Burn-through risk
+- Metal overheating
 
-### Техника "с отрывами" для тонкого металла
+### Intermittent Technique for Thin Metal
 
-Это **ключевая техника** для металла толщиной 1-1,5 мм!
+This is the **key technique** for 1-1.5 mm thick metal!
 
-#### Принцип работы
+#### Operating Principle
 
-1. **Зажигание дуги**
-   - Поднесите электрод на 3-5 мм
-   - Активируйте HF-поджиг
-   - Сразу сблизьте до 1-2 мм
+1. **Arc Ignition**
+   - Bring electrode to 3-5 mm
+   - Activate HF ignition
+   - Immediately close to 1-2 mm
 
-2. **Рабочий импульс**
-   - Длительность: 0,5-1,5 секунды
-   - Сформируйте небольшую сварочную ванну
-   - Продвиньтесь на 5-10 мм
+2. **Working Pulse**
+   - Duration: 0.5-1.5 seconds
+   - Form small weld pool
+   - Advance 5-10 mm
 
-3. **Отрыв дуги**
-   - Быстро отведите электрод на 5-7 мм
-   - Дуга гаснет
-   - Металл начинает остывать
+3. **Arc Break**
+   - Quickly pull electrode back 5-7 mm
+   - Arc extinguishes
+   - Metal begins cooling
 
-4. **Пауза**
-   - Длительность: 0,5-2 секунды
-   - Наблюдайте за кристаллизацией ванны
-   - Готовьтесь к следующему импульсу
+4. **Pause**
+   - Duration: 0.5-2 seconds
+   - Observe pool solidification
+   - Prepare for next pulse
 
-5. **Повторное зажигание**
-   - Поднесите электрод к застывшей ванне
-   - HF-поджиг пробивает остекленевшее покрытие
-   - Продолжайте шов
+5. **Re-ignition**
+   - Bring electrode to solidified pool
+   - HF ignition penetrates vitrified coating
+   - Continue the weld
 
-#### Параметры импульсов
+#### Pulse Parameters
 
-**Для толщины 1,0 мм:**
-- Длительность импульса: 0,5-1,0 сек
-- Пауза: 1,0-1,5 сек
-- Перемещение: 3-5 мм за импульс
+**For 1.0 mm thickness:**
+- Pulse duration: 0.5-1.0 sec
+- Pause: 1.0-1.5 sec
+- Travel: 3-5 mm per pulse
 
-**Для толщины 1,5 мм:**
-- Длительность импульса: 1,0-1,5 сек
-- Пауза: 0,5-1,0 сек
-- Перемещение: 5-8 мм за импульс
+**For 1.5 mm thickness:**
+- Pulse duration: 1.0-1.5 sec
+- Pause: 0.5-1.0 sec
+- Travel: 5-8 mm per pulse
 
-**Для толщины 2,0 мм:**
-- Длительность импульса: 1,5-2,0 сек
-- Пауза: 0,3-0,5 сек (или непрерывно)
-- Перемещение: 8-12 мм за импульс
+**For 2.0 mm thickness:**
+- Pulse duration: 1.5-2.0 sec
+- Pause: 0.3-0.5 sec (or continuous)
+- Travel: 8-12 mm per pulse
 
-#### Ритм работы
+#### Working Rhythm
 
-**Важно:** Выработайте стабильный ритм!
+**Important:** Develop a stable rhythm!
 
-Например: "Раз-два (импульс) - пауза - Раз-два (импульс) - пауза"
+Example: "One-two (pulse) - pause - One-two (pulse) - pause"
 
-**Равномерный ритм обеспечивает:**
-- Одинаковое тепловложение по всему шву
-- Предсказуемое качество
-- Отсутствие перегрева
+**Uniform rhythm ensures:**
+- Equal heat input along entire weld
+- Predictable quality
+- No overheating
 
-### Непрерывная сварка
+### Continuous Welding
 
-Для металла от 1,5 мм возможна непрерывная сварка без отрывов.
+For metal from 1.5 mm, continuous welding without breaks is possible.
 
-**Техника:**
-1. Зажгите дугу
-2. Держите стабильную короткую дугу (1-2 мм)
-3. Равномерно перемещайтесь вдоль шва
-4. Минимальные или отсутствующие поперечные колебания
-5. Наблюдайте за сварочной ванной
+**Technique:**
+1. Ignite arc
+2. Maintain stable short arc (1-2 mm)
+3. Move uniformly along joint
+4. Minimal or no transverse motion
+5. Watch the weld pool
 
-**Преимущества:**
-- Выше производительность
-- Непрерывный шов
-- Меньше включений остекленевшего покрытия в шов
+**Advantages:**
+- Higher productivity
+- Continuous bead
+- Less vitrified coating inclusion in weld
 
-**Недостатки:**
-- Больше тепловложение
-- Риск деформаций
-- Требует более высокой квалификации
+**Disadvantages:**
+- More heat input
+- Distortion risk
+- Requires higher skill level
 
-## Режимы для специфических задач
+## Modes for Specific Tasks
 
-### Прихватки
+### Tack Welds
 
-**Цель:** Зафиксировать детали перед окончательной сваркой
+**Purpose:** Fix parts before final welding
 
-**Параметры:**
-- Ток: на 20-30% ниже рабочего
-- Длина прихватки: 5-10 мм
-- Расстояние между прихватками: 20-30 мм
-- Техника: одиночные короткие импульсы
+**Parameters:**
+- Current: 20-30% below working current
+- Tack length: 5-10 mm
+- Distance between tacks: 20-30 mm
+- Technique: single short pulses
 
-**Последовательность:**
-1. Зажгите дугу
-2. Короткий импульс 0,5-1 сек
-3. Сформируйте небольшую точку сплавления
-4. Оборвите дугу
-5. Переместитесь к следующей точке
+**Sequence:**
+1. Ignite arc
+2. Short pulse 0.5-1 sec
+3. Form small fusion point
+4. Break arc
+5. Move to next point
 
-**Особенности с HF-поджигом:**
-- Не нужно разбивать остекленевшее покрытие
-- Быстрое перемещение между точками
-- Высокая производительность
+**HF Ignition Features:**
+- No need to break vitrified coating
+- Fast movement between points
+- High productivity
 
-### Точечная сварка
+### Spot Welding
 
-**Цель:** Соединение деталей в отдельных точках без непрерывного шва
+**Purpose:** Join parts at discrete points without continuous bead
 
-**Параметры:**
-- Ток: рабочий или +10-15%
-- Длительность: 1-2 секунды
-- Диаметр точки: 4-8 мм
-- Расстояние между точками: по требованию конструкции
+**Parameters:**
+- Current: working or +10-15%
+- Duration: 1-2 seconds
+- Spot diameter: 4-8 mm
+- Distance between spots: per design requirements
 
-**Техника:**
-1. Зажигание HF
-2. Импульс с формированием проплавления
-3. Отрыв дуги
-4. Перемещение к следующей точке
+**Technique:**
+1. HF ignition
+2. Pulse with penetration formation
+3. Arc break
+4. Move to next point
 
-### Сварка замкнутых контуров
+### Welding Closed Contours
 
-**Проблема:** В начале шва металл холодный, в конце - перегрет
+**Problem:** Metal is cold at start of weld, overheated at end
 
-**Решение:**
-
-1. **Начало шва:**
-   - Начните с тока на 10% выше рабочего
-   - Первые 10-15 мм - прогрев металла
+**Solution:**
+
+1. **Weld Start:**
+   - Begin with current 10% above working
+   - First 10-15 mm - metal preheating
 
-2. **Средняя часть:**
-   - Рабочий ток
-   - Стабильный режим
+2. **Middle Section:**
+   - Working current
+   - Stable mode
 
-3. **Конец шва (замыкание):**
-   - За 20-30 мм до начала снизьте ток на 10-20%
-   - Замкните шов с перекрытием 5-10 мм
-   - Плавно уменьшайте ток (если есть функция Down Slope)
+3. **Weld End (tie-in):**
+   - 20-30 mm before start, reduce current by 10-20%
+   - Tie in weld with 5-10 mm overlap
+   - Gradually reduce current (if Down Slope function available)
 
-### Сварка разнородных толщин
+### Welding Dissimilar Thicknesses
 
-**Например:** 1,0 мм + 2,0 мм
-
-**Принцип:** Больше тепла на толстую деталь, меньше - на тонкую
+**Example:** 1.0 mm + 2.0 mm
+
+**Principle:** More heat to thick part, less to thin
 
-**Техника:**
-1. Ток: средний между значениями для каждой толщины
-2. Угол электрода: направлен преимущественно к толстой детали (60-70° к ней)
-3. Дуга: чаще на толстой детали, периодические касания тонкой
-4. Скорость: средняя, контроль проплавления тонкой детали
+**Technique:**
+1. Current: average between values for each thickness
+2. Electrode angle: directed predominantly toward thick part (60-70° to it)
+3. Arc: more often on thick part, periodic touches to thin
+4. Speed: medium, control penetration of thin part
 
-**Пример режима:**
-- Толщины: 1,0 + 2,0 мм
-- Электрод: 2,5 мм
-- Ток: 45-50 А (между 40 для 1мм и 50-60 для 2мм)
-- Техника: с отрывами, дуга 70% времени на толстой, 30% на тонкой
+**Example mode:**
+- Thicknesses: 1.0 + 2.0 mm
+- Electrode: 2.5 mm
+- Current: 45-50 A (between 40 for 1mm and 50-60 for 2mm)
+- Technique: intermittent, arc 70% time on thick, 30% on thin
 
-## Контроль качества в процессе сварки
+## Quality Control During Welding
 
-### Визуальный контроль
+### Visual Control
 
-**Наблюдайте за:**
+**Observe:**
 
-1. **Цвет дуги**
-   - Ярко-белый центр → нормально
-   - Красный, темный → недостаточный ток или длинная дуга
-   - Слишком яркий, ослепительный → избыточный ток
+1. **Arc Color**
+   - Bright white center → normal
+   - Red, dark → insufficient current or long arc
+   - Too bright, blinding → excessive current
 
-2. **Звук дуги**
-   - Ровное шипение → нормально
-   - Треск, щелчки → нестабильная дуга, проверьте ВАХ и длину дуги
-   - Гул → возможно магнитное дутье, переместите заземление
+2. **Arc Sound**
+   - Smooth hiss → normal
+   - Crackling, clicks → unstable arc, check V-A curve and arc length
+   - Humming → possible magnetic blow, relocate ground
 
-3. **Сварочная ванна**
-   - Равномерная, подвижная → нормально
-   - Слишком большая, стекающая → уменьшите ток или увеличьте скорость
-   - Маленькая, быстро застывающая → увеличьте ток или замедлите
+3. **Weld Pool**
+   - Uniform, mobile → normal
+   - Too large, sagging → reduce current or increase speed
+   - Small, solidifying quickly → increase current or slow down
 
-4. **Формирование шва**
-   - Равномерные чешуйки → нормально
-   - Выпуклый узкий валик → увеличьте ток или замедлите
-   - Широкий плоский → уменьшите ток или ускорьтесь
-   - Прожоги → снизьте ток, увеличьте скорость, работайте с отрывами
+4. **Bead Formation**
+   - Uniform ripples → normal
+   - Convex narrow bead → increase current or slow down
+   - Wide flat → reduce current or speed up
+   - Burn-through → reduce current, increase speed, use intermittent
 
-### Контроль тепловложения
+### Heat Input Control
 
-**Признаки перегрева:**
-- Металл начинает светиться вокруг шва
-- Деформации, коробление
-- Прожоги
-- Сварочная ванна слишком жидкая
+**Signs of overheating:**
+- Metal begins glowing around weld
+- Distortion, warping
+- Burn-through
+- Weld pool too fluid
 
-**Действия при перегреве:**
-1. Уменьшите ток на 5-10 А
-2. Увеличьте скорость сварки
-3. Увеличьте паузы между импульсами
-4. Дайте детали остыть
-5. Используйте медные подкладки для отвода тепла
+**Actions for overheating:**
+1. Reduce current by 5-10 A
+2. Increase welding speed
+3. Increase pauses between pulses
+4. Allow part to cool
+5. Use copper backing for heat dissipation
 
-**Признаки недостаточного прогрева:**
-- Непровары
-- Несплавление кромок
-- Выпуклый шов
-- Шлак плохо отделяется
+**Signs of insufficient heating:**
+- Lack of penetration
+- Edge fusion failure
+- Convex weld
+- Slag removes poorly
 
-**Действия:**
-1. Увеличьте ток на 5-10 А
-2. Уменьшите скорость сварки
-3. Сократите паузы между импульсами
-4. Улучшите подготовку кромок
+**Actions:**
+1. Increase current by 5-10 A
+2. Reduce welding speed
+3. Shorten pauses between pulses
+4. Improve edge preparation
 
-## Корректировка параметров в процессе работы
+## Parameter Adjustment During Work
 
-### Таблица проблем и решений (быстрая справка)
+### Problem and Solution Table (Quick Reference)
 
-| Проблема | Возможная причина | Решение |
-|----------|-------------------|---------|
-| Дуга не зажигается | HF не работает | Проверьте настройки, включите HF Start |
-| Залипание | Слишком жесткая ВАХ | Увеличьте коэффициент В/А до 1,5-2,0 |
-| Много брызг | Слишком длинная дуга | Сократите длину дуги до 1-2 мм |
-| Непровары | Недостаточный ток | Увеличьте ток на 10-15 А |
-| Прожоги | Избыточный ток | Уменьшите ток, работайте с отрывами |
-| Дуга отклоняется | Магнитное дутье | Переместите заземление |
-| Шов неравномерный | Нестабильная скорость | Выработайте равномерный ритм |
-| Плохо отделяется шлак | Низкий ток или влажные электроды | Увеличьте ток, используйте сухие электроды |
+| Problem | Possible Cause | Solution |
+|---------|---------------|----------|
+| Arc won't ignite | HF not working | Check settings, enable HF Start |
+| Sticking | V-A curve too stiff | Increase V/A coefficient to 1.5-2.0 |
+| Excessive spatter | Arc too long | Reduce arc length to 1-2 mm |
+| Lack of penetration | Insufficient current | Increase current by 10-15 A |
+| Burn-through | Excessive current | Reduce current, use intermittent |
+| Arc deflects | Magnetic blow | Relocate ground |
+| Uneven bead | Unstable speed | Develop uniform rhythm |
+| Slag removes poorly | Low current or wet electrodes | Increase current, use dry electrodes |
 
-### Адаптация к условиям
+### Adaptation to Conditions
 
-**При сварке на улице:**
-- Защита от ветра обязательна (экраны)
-- Ветер охлаждает металл → увеличьте ток на 10%
-- Больше брызг от ветра → используйте защитные экраны
+**When welding outdoors:**
+- Wind protection mandatory (screens)
+- Wind cools metal → increase current by 10%
+- More spatter from wind → use protective screens
 
-**При низкой температуре воздуха:**
-- Металл холоднее → увеличьте ток на 10-15%
-- Увеличьте длительность импульсов
-- Прогревайте места сварки
+**At low air temperature:**
+- Metal colder → increase current by 10-15%
+- Increase pulse duration
+- Preheat weld areas
 
-**При высокой влажности:**
-- Обязательно используйте прокаленные электроды
-- Храните в термопенале
-- Повышенная вероятность пор
+**At high humidity:**
+- Mandatory use of baked electrodes
+- Store in electrode oven
+- Increased porosity probability
 
-## Документирование режимов
+## Mode Documentation
 
-### Рекомендуемая форма записи
+### Recommended Recording Format
 
-Для каждого успешного режима записывайте:
+For each successful mode, record:
 
 ```
-Дата: ___________
-Материал: ___________ Толщина: _____ + _____ мм
-Тип соединения: ___________
-Положение сварки: ___________
+Date: ___________
+Material: ___________ Thickness: _____ + _____ mm
+Joint type: ___________
+Welding position: ___________
 
-Электрод: LB52U _____ мм
-Ток: _____ А
-ВАХ: _____ В/А
-Полярность: обратная
+Electrode: LB52U _____ mm
+Current: _____ A
+V-A curve: _____ V/A
+Polarity: reverse
 
-Техника: непрерывно / с отрывами
-Импульс: _____ сек
-Пауза: _____ сек
+Technique: continuous / intermittent
+Pulse: _____ sec
+Pause: _____ sec
 
-Результат: ___________
-Примечания: ___________
+Result: ___________
+Notes: ___________
 ```
 
-### Пример заполненной карты режима
+### Example Completed Mode Card
 
 ```
-Дата: 18.11.2025
-Материал: Ст3 Толщина: 1,5 + 1,5 мм
-Тип соединения: стыковое
-Положение сварки: нижнее
+Date: 11/18/2025
+Material: St3 Thickness: 1.5 + 1.5 mm
+Joint type: butt
+Welding position: flat
 
-Электрод: LB52U 2,5 мм
-Ток: 50 А
-ВАХ: 1,2 В/А
-Полярность: обратная
+Electrode: LB52U 2.5 mm
+Current: 50 A
+V-A curve: 1.2 V/A
+Polarity: reverse
 
-Техника: с отрывами
-Импульс: 1,0 сек
-Пауза: 0,5 сек
+Technique: intermittent
+Pulse: 1.0 sec
+Pause: 0.5 sec
 
-Результат: отлично, без прожогов, проплавление 100%
-Примечания: зазор 0,3 мм, прихватки через 25 мм
+Result: excellent, no burn-through, 100% penetration
+Notes: 0.3 mm gap, tacks every 25 mm
 ```
 
-## Чек-лист перед началом сварки
+## Pre-Weld Checklist
 
-Распечатайте и используйте до полного освоения метода:
+Print and use until method is fully mastered:
 
-- [ ] Источник включен, режим TIG DC
-- [ ] ВАХ установлена: _____ В/А (рекомендуется 1,0-1,5)
-- [ ] HF Start активирован
-- [ ] Полярность: обратная (электрод на "+")
-- [ ] Ток установлен: _____ А (согласно таблице)
-- [ ] Электроды: LB52U _____ мм, сухие
-- [ ] Заземление: надежно, близко к месту сварки
-- [ ] Детали: зачищены, собраны, прихвачены
-- [ ] СИЗ: маска, перчатки, одежда, респиратор
-- [ ] Вентиляция: обеспечена
-- [ ] Образцы для пробы: подготовлены
-- [ ] Пробный шов выполнен: результат _____
+- [ ] Power source on, TIG DC mode
+- [ ] V-A curve set: _____ V/A (recommended 1.0-1.5)
+- [ ] HF Start activated
+- [ ] Polarity: reverse (electrode on "+")
+- [ ] Current set: _____ A (per table)
+- [ ] Electrodes: LB52U _____ mm, dry
+- [ ] Ground: secure, close to weld area
+- [ ] Parts: cleaned, assembled, tacked
+- [ ] PPE: helmet, gloves, clothing, respirator
+- [ ] Ventilation: provided
+- [ ] Test samples: prepared
+- [ ] Test weld completed: result _____
 
 ---
 
