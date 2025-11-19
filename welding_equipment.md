@@ -1,404 +1,404 @@
-# Настройка оборудования
+# Equipment Setup
 
-## Требования к источнику питания
+## Power Source Requirements
 
-### Обязательные характеристики
+### Mandatory Characteristics
 
-#### 1. Тип источника
-- **Источник для TIG-сварки** (аргонодуговой)
-- Инверторный или трансформаторный
-- Постоянный ток (DC)
+#### 1. Source Type
+- **TIG welding power source** (GTAW)
+- Inverter or transformer type
+- Direct current (DC)
 
-#### 2. Вольт-амперная характеристика (ВАХ)
+#### 2. Volt-Ampere Characteristic (V-A Curve)
 
-**КРИТИЧЕСКИ ВАЖНО:** Источник должен иметь **наклонную ВАХ**
+**CRITICALLY IMPORTANT:** Power source must have **sloped V-A curve**
 
-✅ **Подходящие характеристики:**
-- Регулируемая наклонная ВАХ: 0,5-2,0 В/А
-- Оптимально: 1,0-1,5 В/А
-- Чем больше коэффициент, тем мягче дуга
+✅ **Suitable characteristics:**
+- Adjustable sloped V-A curve: 0.5-2.0 V/A
+- Optimal: 1.0-1.5 V/A
+- Higher coefficient = softer arc
 
-❌ **НЕ подходит:**
-- Только жесткая (штыковая) характеристика
-- Источники без возможности регулировки ВАХ
-- Характеристики с коэффициентом <0,5 В/А
+❌ **NOT suitable:**
+- Constant current (flat) characteristic only
+- Sources without V-A curve adjustment
+- Characteristics with coefficient <0.5 V/A
 
-**Как проверить:**
-- Изучите руководство пользователя источника
-- Ищите параметры: "slope", "наклон характеристики", "В/А"
-- На некоторых аппаратах обозначено как "inductance" или "индуктивность"
+**How to check:**
+- Study the power source user manual
+- Look for parameters: "slope", "droop", "V/A"
+- Some machines label this as "inductance"
 
-#### 3. Высокочастотный поджиг (HF Start)
+#### 3. High-Frequency Ignition (HF Start)
 
-**Обязательное наличие:**
-- Осциллятор для бесконтактного зажигания дуги
-- Режим работы: "Start Only" (импульсы только при зажигании)
-- Частота: обычно 150-500 кГц
-- Амплитуда: 2000-6000 В
+**Mandatory feature:**
+- Oscillator for contactless arc ignition
+- Operating mode: "Start Only" (pulses only during ignition)
+- Frequency: typically 150-500 kHz
+- Amplitude: 2000-6000 V
 
-**Режимы HF:**
-- ✅ "HF Start" или "Start Only" - импульсы только при старте
-- ⚠️ "Continuous HF" - постоянные импульсы (может работать, но менее надежно)
-- ❌ Без HF - метод не применим
+**HF Modes:**
+- ✅ "HF Start" or "Start Only" - pulses only at start
+- ⚠️ "Continuous HF" - constant pulses (may work but less reliable)
+- ❌ Without HF - method not applicable
 
-#### 4. Диапазон тока
+#### 4. Current Range
 
-Для сварки тонкого металла:
-- Минимальный ток: от 20-30 А
-- Максимальный ток: до 80-100 А (достаточно)
-- Плавная регулировка тока
+For thin metal welding:
+- Minimum current: from 20-30 A
+- Maximum current: up to 80-100 A (sufficient)
+- Smooth current adjustment
 
-#### 5. Напряжение холостого хода
+#### 5. Open Circuit Voltage
 
-- Стандартное для TIG: 50-90 В
-- Достаточно для зажигания дуги через покрытие
+- Standard for TIG: 50-90 V
+- Sufficient for arc ignition through coating
 
-### Дополнительные полезные функции
+### Additional Useful Features
 
-**Желательно иметь:**
-- Регулировка времени предварительной подачи газа (Pre-Flow)
-- Регулировка времени продувки после сварки (Post-Flow)
-- Плавный спуск тока (Down Slope)
-- Педаль или кнопка управления током
+**Desirable to have:**
+- Pre-flow time adjustment
+- Post-flow time adjustment
+- Down slope (current ramp-down)
+- Foot pedal or button for current control
 
-**Можно обойтись без:**
-- Импульсный режим (Pulse)
-- Режим AC для алюминия
-- Горячий старт (компенсируется HF)
+**Can work without:**
+- Pulse mode
+- AC mode for aluminum
+- Hot start (compensated by HF)
 
-## Подбор электродов
+## Electrode Selection
 
-### Рекомендуемые электроды
+### Recommended Electrodes
 
-**Тип:** LB52U или аналогичные
-- Покрытие: основное
-- Назначение: низколегированные и высокопрочные стали
-- Стандарт: обычно соответствуют AWS E7018 или аналогам
+**Type:** LB52U or equivalent
+- Coating: basic (lime-type)
+- Application: low-alloy and high-strength steels
+- Standard: typically complies with AWS E7018 or equivalents
 
-**Диаметр электрода в зависимости от толщины металла:**
+**Electrode diameter based on metal thickness:**
 
-| Толщина металла | Диаметр электрода | Примечание |
-|-----------------|-------------------|------------|
-| 1,0 мм | 2,0 мм | Минимальный диаметр |
-| 1,5 мм | 2,0-2,5 мм | Оптимальный выбор |
-| 2,0 мм | 2,5 мм | Стандартный |
-| 2,5+ мм | 3,0 мм | При необходимости |
+| Metal Thickness | Electrode Diameter | Note |
+|-----------------|-------------------|------|
+| 1.0 mm | 2.0 mm | Minimum diameter |
+| 1.5 mm | 2.0-2.5 mm | Optimal choice |
+| 2.0 mm | 2.5 mm | Standard |
+| 2.5+ mm | 3.0 mm | If necessary |
 
-⚠️ **Важно:** Не используйте электроды диаметром более 3 мм для тонкого металла!
+⚠️ **Important:** Do not use electrodes larger than 3 mm for thin metal!
 
-### Требования к качеству электродов
+### Electrode Quality Requirements
 
-1. **Хранение**
-   - Сухое помещение
-   - Температура выше точки росы
-   - Оригинальная упаковка до использования
+1. **Storage**
+   - Dry location
+   - Temperature above dew point
+   - Original packaging until use
 
-2. **Прокалка (если требуется)**
-   - Согласно инструкции производителя
-   - Обычно: 300-350°C, 1-2 часа
-   - Хранение в термопенале при 80-100°C
+2. **Baking (if required)**
+   - According to manufacturer's instructions
+   - Typically: 300-350°C, 1-2 hours
+   - Storage in electrode oven at 80-100°C
 
-3. **Состояние покрытия**
-   - Без трещин и сколов
-   - Равномерное покрытие
-   - Без следов влаги
+3. **Coating Condition**
+   - No cracks or chips
+   - Uniform coating
+   - No moisture traces
 
-## Настройка источника питания
+## Power Source Setup
 
-### Шаг 1: Выбор режима работы
+### Step 1: Operating Mode Selection
 
-1. **Включите источник**
-2. **Выберите режим TIG (DC)**
-   - Постоянный ток
-   - Режим аргонодуговой сварки
-3. **Активируйте высокочастотный поджиг**
-   - Установите "HF Start" или "Start Only"
-   - НЕ используйте "Lift TIG" или "Scratch Start"
+1. **Turn on the power source**
+2. **Select TIG (DC) mode**
+   - Direct current
+   - GTAW mode
+3. **Activate high-frequency ignition**
+   - Set "HF Start" or "Start Only"
+   - DO NOT use "Lift TIG" or "Scratch Start"
 
-### Шаг 2: Настройка ВАХ
+### Step 2: V-A Curve Adjustment
 
-**Установка наклона характеристики:**
+**Setting slope characteristic:**
 
-1. Найдите параметр:
-   - "Slope" (наклон)
-   - "Inductance" (индуктивность)
-   - "В/А" или аналогичный
+1. Find the parameter:
+   - "Slope" (droop)
+   - "Inductance"
+   - "V/A" or similar
 
-2. **Установите значение: 1,0-1,5 В/А**
-   - Начните с 1,2 В/А
-   - Если дуга нестабильна - увеличьте до 1,5 В/А
-   - Если много брызг - уменьшите до 1,0 В/А
+2. **Set value: 1.0-1.5 V/A**
+   - Start with 1.2 V/A
+   - If arc is unstable - increase to 1.5 V/A
+   - If excessive spatter - reduce to 1.0 V/A
 
-**Таблица подбора ВАХ:**
+**V-A Curve Selection Table:**
 
-| Коэффициент В/А | Характер дуги | Применение |
-|-----------------|---------------|------------|
-| 0,5-0,8 | Более жесткая | Опытные сварщики, толщина >1,5 мм |
-| 1,0-1,2 | Сбалансированная | Универсальный выбор |
-| 1,3-1,5 | Мягкая | Начинающие, толщина <1,5 мм |
-| 1,6-2,0 | Очень мягкая | Особо тонкий металл |
+| V/A Coefficient | Arc Character | Application |
+|-----------------|---------------|-------------|
+| 0.5-0.8 | Stiffer | Experienced welders, thickness >1.5 mm |
+| 1.0-1.2 | Balanced | Universal choice |
+| 1.3-1.5 | Soft | Beginners, thickness <1.5 mm |
+| 1.6-2.0 | Very soft | Extra thin metal |
 
-### Шаг 3: Установка рабочего тока
+### Step 3: Working Current Setting
 
-**Начальные значения:**
+**Initial values:**
 
-Формула расчета: **I (А) ≈ 30 × d (мм)**
+Formula: **I (A) ≈ 30 × d (mm)**
 
-где d - диаметр электрода
+where d = electrode diameter
 
-| Диаметр электрода | Начальный ток | Диапазон регулировки |
-|-------------------|---------------|----------------------|
-| 2,0 мм | 50-60 А | 40-70 А |
-| 2,5 мм | 60-70 А | 50-80 А |
-| 3,0 мм | 70-80 А | 60-90 А |
+| Electrode Diameter | Initial Current | Adjustment Range |
+|-------------------|-----------------|------------------|
+| 2.0 mm | 50-60 A | 40-70 A |
+| 2.5 mm | 60-70 A | 50-80 A |
+| 3.0 mm | 70-80 A | 60-90 A |
 
-**Корректировка по толщине металла:**
+**Adjustment by metal thickness:**
 
-| Толщина металла | Корректировка тока |
+| Metal Thickness | Current Adjustment |
 |-----------------|-------------------|
-| 1,0 мм | -10...15 А от базового |
-| 1,5 мм | -5...10 А от базового |
-| 2,0 мм | Базовое значение |
-| 2,5+ мм | +5...10 А от базового |
+| 1.0 mm | -10...15 A from base |
+| 1.5 mm | -5...10 A from base |
+| 2.0 mm | Base value |
+| 2.5+ mm | +5...10 A from base |
 
-### Шаг 4: Настройка полярности
+### Step 4: Polarity Setting
 
-**Для электродов типа LB52U:**
-- ✅ **Обратная полярность (DCEP)**
-  - Электрододержатель на "+" (плюс)
-  - Заземление на "-" (минус)
+**For LB52U type electrodes:**
+- ✅ **Reverse polarity (DCEP)**
+  - Electrode holder on "+" (positive)
+  - Ground on "-" (negative)
 
-**Проверка:** На большинстве источников для TIG стандартная полярность - прямая (электрод на минус). Для работы с покрытыми электродами **переключите полярность**.
+**Check:** Most TIG power sources have standard straight polarity (electrode negative). For coated electrode work **reverse the polarity**.
 
-### Шаг 5: Дополнительные параметры
+### Step 5: Additional Parameters
 
-**Pre-Flow (предварительная подача газа):**
-- Установите минимальное значение или 0 сек
-- Газовая защита не используется
+**Pre-Flow (gas pre-flow):**
+- Set minimum value or 0 sec
+- Gas shielding not used
 
-**Post-Flow (продувка после сварки):**
-- Установите минимальное значение или 0 сек
+**Post-Flow (post-weld purge):**
+- Set minimum value or 0 sec
 
-**Down Slope (плавный спуск тока):**
-- Установите минимальное значение или 0 сек
-- При работе с отрывами не требуется
+**Down Slope (current ramp-down):**
+- Set minimum value or 0 sec
+- Not required for intermittent welding
 
-## Подготовка рабочего места
+## Workplace Preparation
 
-### Оборудование и инструменты
+### Equipment and Tools
 
-**Обязательно:**
-1. Сварочный источник (настроен согласно инструкции выше)
-2. Электрододержатель для ручной дуговой сварки
-3. Кабель заземления
-4. Электроды LB52U подходящего диаметра
-5. Средства защиты (см. раздел "Безопасность")
+**Mandatory:**
+1. Welding power source (configured per above instructions)
+2. Electrode holder for SMAW
+3. Ground cable
+4. LB52U electrodes of appropriate diameter
+5. Personal protective equipment (see "Safety" section)
 
-**Рекомендуется:**
-1. Образцы металла для пробных швов
-2. Металлическая щетка для зачистки
-3. Молоток для сбивания шлака
-4. Наждачная бумага или напильник для зачистки электрода
-5. Измерительные инструменты (штангенциркуль, линейка)
+**Recommended:**
+1. Metal samples for test welds
+2. Wire brush for cleaning
+3. Chipping hammer for slag removal
+4. Sandpaper or file for electrode cleaning
+5. Measuring tools (calipers, ruler)
 
-### Подготовка деталей
+### Part Preparation
 
-1. **Зачистка поверхности**
-   - Удалите окалину, ржавчину, краску
-   - Зачистите на ширину 20-30 мм от шва
-   - Обезжирьте ацетоном или растворителем
+1. **Surface Cleaning**
+   - Remove scale, rust, paint
+   - Clean 20-30 mm width from weld
+   - Degrease with acetone or solvent
 
-2. **Сборка и прихватки**
-   - Минимальные зазоры (0-0,5 мм)
-   - Прихватки через каждые 20-30 мм
-   - Длина прихватки: 5-10 мм
+2. **Assembly and Tack Welds**
+   - Minimum gaps (0-0.5 mm)
+   - Tack welds every 20-30 mm
+   - Tack length: 5-10 mm
 
-3. **Фиксация деталей**
-   - Используйте струбцины или приспособления
-   - Обеспечьте свободный доступ к месту сварки
-   - Предусмотрите отвод тепла (подкладки)
+3. **Part Fixturing**
+   - Use clamps or fixtures
+   - Ensure free access to weld area
+   - Provide for heat dissipation (backing strips)
 
-### Размещение заземления
+### Ground Placement
 
-**Критически важно для устойчивости дуги!**
+**Critical for arc stability!**
 
-✅ **Правильное размещение:**
-- Максимально близко к месту сварки
-- Надежный электрический контакт
-- Зачищенная поверхность в месте крепления
+✅ **Correct placement:**
+- As close as possible to weld area
+- Reliable electrical contact
+- Clean surface at attachment point
 
-❌ **Неправильное размещение:**
-- Далеко от места сварки
-- Через промежуточные детали
-- На окрашенную или окисленную поверхность
+❌ **Incorrect placement:**
+- Far from weld area
+- Through intermediate parts
+- On painted or oxidized surface
 
-**Проблема магнитного дутья:**
-- Может возникать из-за неправильного размещения заземления
-- Дуга "сдувается" в сторону
-- Решение: переместите заземление на другую сторону шва
+**Magnetic blow problem:**
+- Can occur due to improper ground placement
+- Arc "blows" to one side
+- Solution: relocate ground to opposite side of weld
 
-## Первое включение и проверка
+## Initial Power-Up and Testing
 
-### Контрольный список перед сваркой
+### Pre-Weld Checklist
 
-- [ ] Источник настроен согласно инструкции
-- [ ] ВАХ установлена в диапазоне 1,0-1,5 В/А
-- [ ] Высокочастотный поджиг активирован
-- [ ] Полярность обратная (электрод на "+")
-- [ ] Ток установлен согласно таблице
-- [ ] Заземление надежно закреплено близко к месту сварки
-- [ ] Электроды сухие, без повреждений
-- [ ] Средства защиты надеты
-- [ ] Подготовлены образцы для пробных швов
+- [ ] Power source configured per instructions
+- [ ] V-A curve set in 1.0-1.5 V/A range
+- [ ] High-frequency ignition activated
+- [ ] Reverse polarity (electrode on "+")
+- [ ] Current set per table
+- [ ] Ground securely attached close to weld area
+- [ ] Electrodes dry, undamaged
+- [ ] Protective equipment worn
+- [ ] Test samples prepared
 
-### Пробное зажигание
+### Test Ignition
 
-1. **Подготовьте образец металла**
-   - Толщина соответствует рабочим деталям
-   - Чистая поверхность
+1. **Prepare metal sample**
+   - Thickness matches working parts
+   - Clean surface
 
-2. **Первое зажигание**
-   - Поднесите электрод на расстояние 3-5 мм
-   - Активируйте HF-поджиг (обычно автоматически при нажатии кнопки)
-   - Дуга должна зажечься без касания
+2. **First ignition**
+   - Bring electrode to 3-5 mm distance
+   - Activate HF ignition (usually automatic when button pressed)
+   - Arc should ignite without contact
 
-3. **Оценка качества дуги**
-   - Звук: ровный, шипящий
-   - Цвет: ярко-белый в центре
-   - Стабильность: минимум колебаний
-   - Брызги: минимальные
+3. **Arc quality assessment**
+   - Sound: smooth, hissing
+   - Color: bright white in center
+   - Stability: minimal fluctuations
+   - Spatter: minimal
 
-4. **Проверка повторного зажигания**
-   - Оборвите дугу
-   - Дайте электроду остыть 1-2 секунды
-   - Зажгите повторно через остекленевшее покрытие
-   - Должно работать без проблем
+4. **Re-ignition test**
+   - Break the arc
+   - Let electrode cool 1-2 seconds
+   - Re-ignite through vitrified coating
+   - Should work without problems
 
-### Признаки правильной настройки
+### Signs of Proper Setup
 
-✅ **Все хорошо:**
-- Дуга зажигается легко и быстро
-- Горит ровно, без треска
-- Повторное зажигание работает через остекленевшее покрытие
-- Электрод не залипает
-- Минимум брызг
+✅ **All good:**
+- Arc ignites easily and quickly
+- Burns smoothly, without crackling
+- Re-ignition works through vitrified coating
+- Electrode doesn't stick
+- Minimal spatter
 
-❌ **Требуется корректировка:**
-- Дуга трещит и "плюется" → увеличьте наклон ВАХ
-- Частые залипания → увеличьте наклон ВАХ или ток
-- Не зажигается повторно → проверьте HF-поджиг
-- Много брызг → уменьшите ток или наклон ВАХ
-- Прожоги → уменьшите ток
+❌ **Requires adjustment:**
+- Arc crackles and "spits" → increase V-A curve slope
+- Frequent sticking → increase V-A curve slope or current
+- Won't re-ignite → check HF ignition
+- Excessive spatter → decrease current or V-A curve slope
+- Burn-through → decrease current
 
-## Тонкая настройка под конкретную задачу
+## Fine Tuning for Specific Applications
 
-### Для разных толщин металла
+### For Different Metal Thicknesses
 
-**Металл 1,0 мм:**
-- Ток: на 10-15 А ниже базового
-- ВАХ: 1,3-1,5 В/А (более мягкая)
-- Техника: короткие импульсы с паузами
+**1.0 mm metal:**
+- Current: 10-15 A below base
+- V-A curve: 1.3-1.5 V/A (softer)
+- Technique: short pulses with pauses
 
-**Металл 1,5 мм:**
-- Ток: на 5-10 А ниже базового
-- ВАХ: 1,2-1,4 В/А (стандартная)
-- Техника: импульсы средней длительности
+**1.5 mm metal:**
+- Current: 5-10 A below base
+- V-A curve: 1.2-1.4 V/A (standard)
+- Technique: medium duration pulses
 
-**Металл 2,0 мм:**
-- Ток: базовое значение
-- ВАХ: 1,0-1,2 В/А (можно жестче)
-- Техника: возможна непрерывная сварка
+**2.0 mm metal:**
+- Current: base value
+- V-A curve: 1.0-1.2 V/A (can be stiffer)
+- Technique: continuous welding possible
 
-### Для разных типов соединений
+### For Different Joint Types
 
-**Стыковое соединение:**
-- Минимальный зазор
-- Ток: базовый
-- Тщательная прихватка
+**Butt joint:**
+- Minimum gap
+- Current: base
+- Thorough tack welding
 
-**Угловое соединение:**
-- Ток: +5-10 А от базового
-- Направление: снизу вверх предпочтительнее
+**Corner joint:**
+- Current: +5-10 A from base
+- Direction: upward preferred
 
-**Тавровое соединение:**
-- Ток: +10 А от базового
-- Угол электрода: 45° к обеим деталям
+**T-joint:**
+- Current: +10 A from base
+- Electrode angle: 45° to both parts
 
-**Нахлесточное соединение:**
-- Ток: базовый или +5 А
-- Направление дуги: преимущественно на нижнюю деталь
+**Lap joint:**
+- Current: base or +5 A
+- Arc direction: predominantly on lower part
 
-## Обслуживание оборудования
+## Equipment Maintenance
 
-### Регулярные проверки
+### Regular Checks
 
-**Перед каждой сменой:**
-- Проверка кабелей на повреждения
-- Очистка электрододержателя
-- Проверка надежности заземления
+**Before each shift:**
+- Check cables for damage
+- Clean electrode holder
+- Verify ground connection reliability
 
-**Еженедельно:**
-- Очистка вентиляционных отверстий источника
-- Проверка затяжки всех соединений
-- Проверка работы HF-поджига
+**Weekly:**
+- Clean power source ventilation openings
+- Check all connection tightness
+- Check HF ignition operation
 
-**Ежемесячно:**
-- Проверка изоляции кабелей мегаомметром
-- Проверка калибровки тока (если возможно)
+**Monthly:**
+- Check cable insulation with megger
+- Check current calibration (if possible)
 
-### Признаки неисправности
+### Malfunction Signs
 
-⚠️ **Обратитесь к специалисту, если:**
-- HF-поджиг не работает или работает нестабильно
-- Источник перегревается
-- Запах гари или дым
-- Ток не регулируется
-- Частые срабатывания защиты
+⚠️ **Contact specialist if:**
+- HF ignition not working or unstable
+- Power source overheats
+- Smell of burning or smoke
+- Current not adjusting
+- Frequent protection trips
 
-## Безопасность
+## Safety
 
-### Средства индивидуальной защиты
+### Personal Protective Equipment
 
-**Обязательно:**
-1. Сварочная маска со светофильтром DIN 9-11
-2. Сварочные перчатки (краги)
-3. Защитная одежда из негорючего материала
-4. Закрытая обувь на резиновой подошве
+**Mandatory:**
+1. Welding helmet with shade DIN 9-11
+2. Welding gloves (gauntlets)
+3. Protective clothing from non-flammable material
+4. Closed-toe shoes with rubber soles
 
-**Рекомендуется:**
-1. Респиратор (электроды с основным покрытием дают много дыма)
-2. Защитные очки под маской
-3. Фартук из негорючего материала
+**Recommended:**
+1. Respirator (basic-coated electrodes produce heavy fumes)
+2. Safety glasses under helmet
+3. Apron from non-flammable material
 
-### Электробезопасность
+### Electrical Safety
 
-⚠️ **ОПАСНО:**
-- Высокочастотные импульсы могут быть опасны для людей с кардиостимуляторами
-- Не прикасайтесь к электроду и деталям под напряжением
-- Работайте в диэлектрических перчатках при влажности
+⚠️ **DANGER:**
+- High-frequency pulses can be dangerous for people with pacemakers
+- Do not touch electrode and parts under voltage
+- Work in dielectric gloves when humid
 
-**Правила:**
-- Заземление корпуса источника обязательно
-- Используйте исправные кабели
-- Не работайте под дождем или в луж ах
-- Изолируйте себя от земли (резиновый коврик)
+**Rules:**
+- Power source grounding mandatory
+- Use serviceable cables
+- Do not work in rain or puddles
+- Insulate yourself from ground (rubber mat)
 
-### Пожарная безопасность
+### Fire Safety
 
-**Требования:**
-- Огнетушитель в пределах досягаемости
-- Удалите легковоспламеняющиеся материалы на 5 м
-- Искрогасящие экраны при необходимости
-- Контроль за искрами и брызгами металла
+**Requirements:**
+- Fire extinguisher within reach
+- Remove flammable materials 5 m away
+- Spark-arresting screens if necessary
+- Monitor sparks and metal spatter
 
-### Вентиляция
+### Ventilation
 
-**Обязательно:**
-- Естественная или принудительная вентиляция
-- Электроды LB52U выделяют токсичные пары
-- Особенно критично в замкнутых пространствах
-- Используйте вытяжку или респиратор
+**Mandatory:**
+- Natural or forced ventilation
+- LB52U electrodes emit toxic fumes
+- Especially critical in confined spaces
+- Use exhaust or respirator
 
 ---
 
-**Следующий шаг:** После настройки оборудования переходите к разделу [Параметры сварки](welding-parameters.md) для изучения конкретных режимов работы.
+**Next step:** After equipment setup, proceed to [Welding Parameters](welding-parameters.md) section to study specific operating modes.
