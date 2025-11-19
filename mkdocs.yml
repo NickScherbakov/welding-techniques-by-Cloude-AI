@@ -1,0 +1,76 @@
+site_name: Сообщество сварщиков — Cloude AI
+site_description: Площадка для ученых и практиков сварки — обмен опытом, теория, практика и новые подходы.
+site_url: https://nickscherbakov.github.io/welding-techniques-by-Cloude-AI/
+
+repo_url: https://github.com/NickScherbakov/welding-techniques-by-Cloude-AI
+repo_name: GitHub
+edit_uri: edit/main/
+
+# Используем директорию docs для документации
+docs_dir: docs
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - js/math.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NickScherbakov/welding-techniques-by-Cloude-AI
+
+nav:
+  - Главная: index.md
+  - Быстрый старт: welding_quick_start.md
+  - Теория: welding_theory.md
+  - Практика:
+      - Оборудование: welding_equipment.md
+      - Параметры: welding_params.md
+      - Наладка: welding_setup_guide.md
+  - Материалы:
+      - Файлы проекта: welding_files_list.md
+      - Руководство по изображениям: welding_images_readme.md
+  - Трудности: welding_troubleshooting.md
+  - Статьи и опыт: articles/index.md
+  - Сообщество:
+      - Как внести вклад: contributing.md
+      - Шаблоны материалов: submit_guidelines.md
+      - Кодекс поведения: code_of_conduct.md

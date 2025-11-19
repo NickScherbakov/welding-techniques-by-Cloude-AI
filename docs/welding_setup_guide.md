@@ -65,7 +65,7 @@ Or use GitHub web interface (easier for beginners).
 
 **Repeat for all files:**
 - `TIG-source-with-coated-electrodes/equipment-setup.md`
-- `TIG-source-with-coated-electrodes/welding-parameters.md`
+- `TIG-source-with-coated-electrodes/welding_params.md`
 - `TIG-source-with-coated-electrodes/troubleshooting.md`
 - `TIG-source-with-coated-electrodes/images/README.md`
 

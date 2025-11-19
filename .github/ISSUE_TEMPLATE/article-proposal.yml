@@ -1,0 +1,46 @@
+name: Предложить статью
+description: Предложить новую исследовательскую или практическую статью
+labels: [proposal, article]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Рабочее название статьи
+      placeholder: Например: Импульсный GMAW для тонколистовой нержавеющей стали
+    validations:
+      required: true
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Краткая аннотация
+      description: 2–4 предложения о цели, методе и ожидаемых результатах
+    validations:
+      required: true
+  - type: textarea
+    id: methods
+    attributes:
+      label: Методика / подход
+      description: Ключевые параметры, оборудование, материалы
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемые результаты / ценность
+      description: Чем материал будет полезен сообществу
+  - type: input
+    id: keywords
+    attributes:
+      label: Ключевые слова
+      placeholder: GMAW, импульсный режим, микроструктура
+  - type: textarea
+    id: references
+    attributes:
+      label: Предварительные источники
+      description: Основные статьи/стандарты/документы
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Предварительная проверка
+      options:
+        - label: Поискал схожие открытые Issues
+        - label: Готов предоставить сырые данные (при наличии)
+        - label: Готов следовать шаблону статьи
