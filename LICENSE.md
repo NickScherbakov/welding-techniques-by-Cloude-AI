@@ -123,8 +123,8 @@ b. **ShareAlike**.
 
 ---
 
-Полный текст лицензии доступен по адресу:  
+Full license text available at:  
 https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-Перевод на русский язык (не имеет юридической силы):  
+Russian translation (not legally binding):  
 https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru
