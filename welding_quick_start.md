@@ -1,369 +1,369 @@
-# Быстрый старт - Welding Techniques Repository
+# Quick Start - Welding Techniques Repository
 
-Это краткое руководство для быстрого начала работы с репозиторием.
+This quick guide will help you quickly get started with the repository.
 
-## Что уже подготовлено
+## What's Already Prepared
 
-В этом наборе файлов вы найдете:
+In this file set you'll find:
 
-### 📄 Основные документы
+### 📄 Main Documents
 
-1. **README.md** - Главная страница репозитория
-   - Общее описание проекта
-   - Структура содержания
-   - Инструкции для участников
+1. **README.md** - Repository main page
+   - General project description
+   - Content structure
+   - Contributor instructions
 
-2. **LICENSE** - Лицензия CC BY-SA 4.0
-   - Условия использования
-   - Права и обязанности
+2. **LICENSE** - CC BY-SA 4.0 License
+   - Terms of use
+   - Rights and obligations
 
-3. **SETUP_GUIDE.md** - Пошаговая инструкция создания репозитория
-   - Для тех, кто впервые работает с GitHub
-   - Все шаги с скриншотами инструкций
+3. **SETUP_GUIDE.md** - Step-by-step repository creation instructions
+   - For those new to GitHub
+   - All steps with instruction screenshots
 
-4. **QUICK_START.md** (этот файл) - Быстрый обзор
+4. **QUICK_START.md** (this file) - Quick overview
 
-### 📁 Раздел TIG-source-with-coated-electrodes/
+### 📁 TIG-source-with-coated-electrodes/ Section
 
-**theory.md** - Теоретическое обоснование
-- Физика сварочной дуги
-- Вольт-амперные характеристики
-- Принцип работы HF-поджига
-- Ограничения метода
+**theory.md** - Theoretical justification
+- Welding arc physics
+- Volt-ampere characteristics
+- HF ignition principle
+- Method limitations
 
-**equipment-setup.md** - Настройка оборудования
-- Требования к источнику
-- Пошаговая настройка
-- Подготовка рабочего места
-- Техника безопасности
+**equipment-setup.md** - Equipment setup
+- Power source requirements
+- Step-by-step setup
+- Workplace preparation
+- Safety
 
-**welding-parameters.md** - Параметры сварки
-- Таблицы режимов
-- Техники сварки
-- Контроль качества
-- Документирование результатов
+**welding-parameters.md** - Welding parameters
+- Mode tables
+- Welding techniques
+- Quality control
+- Result documentation
 
-**troubleshooting.md** - Устранение неполадок
-- Диагностика проблем
-- Пошаговые решения
+**troubleshooting.md** - Troubleshooting
+- Problem diagnostics
+- Step-by-step solutions
 - FAQ
-- Профилактика
+- Prevention
 
-**images/README.md** - Инструкции для изображений
-- Структура папки
-- Требования к фотографиям
-- Как добавлять изображения
+**images/README.md** - Image instructions
+- Folder structure
+- Photo requirements
+- How to add images
 
-## Структура репозитория
+## Repository Structure
 
 ```
 welding-techniques/
 │
-├── README.md                           # Главная страница
-├── LICENSE                             # Лицензия CC BY-SA 4.0
-├── SETUP_GUIDE.md                      # Инструкция по созданию репозитория
-├── QUICK_START.md                      # Этот файл
+├── README.md                           # Main page
+├── LICENSE                             # CC BY-SA 4.0 License
+├── SETUP_GUIDE.md                      # Repository creation instructions
+├── QUICK_START.md                      # This file
 │
-├── TIG-source-with-coated-electrodes/  # Основной раздел
-│   ├── README.md                       # Описание раздела (создать позже)
-│   ├── theory.md                       # Теория
-│   ├── equipment-setup.md              # Настройка
-│   ├── welding-parameters.md           # Параметры
-│   ├── troubleshooting.md              # Проблемы и решения
+├── TIG-source-with-coated-electrodes/  # Main section
+│   ├── README.md                       # Section description (create later)
+│   ├── theory.md                       # Theory
+│   ├── equipment-setup.md              # Setup
+│   ├── welding-parameters.md           # Parameters
+│   ├── troubleshooting.md              # Problems and solutions
 │   │
-│   └── images/                         # Папка для изображений
-│       ├── README.md                   # Инструкции
-│       ├── equipment/                  # Фото оборудования
-│       ├── setup/                      # Процесс настройки
-│       ├── electrodes/                 # Электроды
-│       ├── technique/                  # Техника сварки
-│       ├── welds/                      # Примеры швов
-│       ├── defects/                    # Дефекты
-│       ├── diagrams/                   # Схемы
-│       └── safety/                     # Безопасность
+│   └── images/                         # Images folder
+│       ├── README.md                   # Instructions
+│       ├── equipment/                  # Equipment photos
+│       ├── setup/                      # Setup process
+│       ├── electrodes/                 # Electrodes
+│       ├── technique/                  # Welding technique
+│       ├── welds/                      # Weld examples
+│       ├── defects/                    # Defects
+│       ├── diagrams/                   # Diagrams
+│       └── safety/                     # Safety
 │
-└── other-techniques/                   # Для будущих разделов
-    └── README.md                       # Заглушка
+└── other-techniques/                   # For future sections
+    └── README.md                       # Placeholder
 ```
 
-## Три способа работы
+## Three Work Methods
 
-### Вариант 1: Полностью через веб-интерфейс (Самый простой)
+### Option 1: Fully via Web Interface (Simplest)
 
-**Для кого:** Новички, не знакомые с Git
+**For:** Beginners unfamiliar with Git
 
-**Преимущества:**
-- Не требует установки программ
-- Работает из любого браузера
-- Просто и наглядно
+**Advantages:**
+- No software installation required
+- Works from any browser
+- Simple and visual
 
-**Как:**
-1. Следуйте SETUP_GUIDE.md, раздел "Через веб-интерфейс"
-2. Создавайте файлы по одному через "Add file" → "Create new file"
-3. Копируйте содержимое из подготовленных файлов
-4. Commit после каждого файла
+**How:**
+1. Follow SETUP_GUIDE.md, "Via Web Interface" section
+2. Create files one by one via "Add file" → "Create new file"
+3. Copy content from prepared files
+4. Commit after each file
 
-### Вариант 2: Git через командную строку (Рекомендуется)
+### Option 2: Git via Command Line (Recommended)
 
-**Для кого:** Имеющие базовые навыки работы с командной строкой
+**For:** Those with basic command line skills
 
-**Преимущества:**
-- Быстрее для множества файлов
-- Больше контроля
-- Профессиональный подход
+**Advantages:**
+- Faster for multiple files
+- More control
+- Professional approach
 
-**Как:**
+**How:**
 ```bash
-# 1. Создайте репозиторий на GitHub через веб-интерфейс
+# 1. Create repository on GitHub via web interface
 
-# 2. Клонируйте его локально
-git clone https://github.com/ваш-username/welding-techniques.git
+# 2. Clone it locally
+git clone https://github.com/your-username/welding-techniques.git
 cd welding-techniques
 
-# 3. Создайте структуру папок
+# 3. Create folder structure
 mkdir -p TIG-source-with-coated-electrodes/images/{equipment,setup,electrodes,technique,welds,defects,diagrams,safety}
 mkdir -p other-techniques
 
-# 4. Скопируйте все подготовленные .md файлы в соответствующие папки
+# 4. Copy all prepared .md files to appropriate folders
 
-# 5. Добавьте все файлы
+# 5. Add all files
 git add .
 
-# 6. Создайте commit
+# 6. Create commit
 git commit -m "Initial documentation structure"
 
-# 7. Отправьте на GitHub
+# 7. Push to GitHub
 git push origin main
 ```
 
-### Вариант 3: GitHub Desktop (Для Windows/Mac)
+### Option 3: GitHub Desktop (For Windows/Mac)
 
-**Для кого:** Предпочитающие графический интерфейс
+**For:** Those preferring GUI
 
-**Преимущества:**
-- Удобный GUI
-- Визуальный контроль изменений
-- Не нужна командная строка
+**Advantages:**
+- Convenient GUI
+- Visual change control
+- No command line needed
 
-**Как:**
-1. Скачайте [GitHub Desktop](https://desktop.github.com)
-2. Войдите в свой аккаунт
-3. Clone repository → выберите ваш репозиторий
-4. Добавьте файлы в локальную папку
-5. Commit через интерфейс
+**How:**
+1. Download [GitHub Desktop](https://desktop.github.com)
+2. Log into your account
+3. Clone repository → select your repository
+4. Add files to local folder
+5. Commit via interface
 6. Push to origin
 
-## Быстрый чек-лист создания
+## Quick Creation Checklist
 
-### Этап 1: Подготовка (5 минут)
-- [ ] Создан аккаунт на GitHub
-- [ ] Создан новый репозиторий `welding-techniques`
-- [ ] Выбрана лицензия CC BY-SA 4.0
-- [ ] Репозиторий публичный (Public)
+### Stage 1: Preparation (5 minutes)
+- [ ] GitHub account created
+- [ ] New repository `welding-techniques` created
+- [ ] CC BY-SA 4.0 license selected
+- [ ] Repository is Public
 
-### Этап 2: Загрузка документации (15-30 минут)
-- [ ] README.md в корне обновлен
-- [ ] LICENSE добавлен
-- [ ] Создана папка `TIG-source-with-coated-electrodes/`
-- [ ] theory.md добавлен
-- [ ] equipment-setup.md добавлен
-- [ ] welding-parameters.md добавлен
-- [ ] troubleshooting.md добавлен
-- [ ] Создана папка `images/` с подпапками
-- [ ] images/README.md добавлен
+### Stage 2: Documentation Upload (15-30 minutes)
+- [ ] README.md in root updated
+- [ ] LICENSE added
+- [ ] `TIG-source-with-coated-electrodes/` folder created
+- [ ] theory.md added
+- [ ] equipment-setup.md added
+- [ ] welding-parameters.md added
+- [ ] troubleshooting.md added
+- [ ] `images/` folder with subfolders created
+- [ ] images/README.md added
 
-### Этап 3: Настройка репозитория (10 минут)
-- [ ] Topics добавлены (welding, tig-welding, documentation)
-- [ ] Описание репозитория заполнено
-- [ ] Issues включены
-- [ ] Создан шаблон Issue (опционально)
+### Stage 3: Repository Configuration (10 minutes)
+- [ ] Topics added (welding, tig-welding, documentation)
+- [ ] Repository description filled
+- [ ] Issues enabled
+- [ ] Issue template created (optional)
 
-### Этап 4: Публикация (5 минут)
-- [ ] Проверена структура репозитория
-- [ ] Все файлы на месте
-- [ ] Ссылки работают
-- [ ] Создан первый Release v1.0.0
+### Stage 4: Publication (5 minutes)
+- [ ] Repository structure checked
+- [ ] All files in place
+- [ ] Links working
+- [ ] First Release v1.0.0 created
 
-## Частые вопросы
+## Frequently Asked Questions
 
-### В: Нужно ли создавать все папки для изображений сразу?
+### Q: Do I need to create all image folders immediately?
 
-О: Нет, можно создать только основную папку `images/` и README.md в ней. Подпапки создадите позже, когда будут готовы фотографии.
+A: No, you can create just the main `images/` folder and README.md in it. Create subfolders later when photos are ready.
 
-### В: Можно ли изменить структуру репозитория после создания?
+### Q: Can I change repository structure after creation?
 
-О: Да, структуру можно менять в любой момент. GitHub сохраняет всю историю изменений.
+A: Yes, structure can be changed anytime. GitHub saves all change history.
 
-### В: Что делать, если допустил ошибку в файле?
+### Q: What if I make a mistake in a file?
 
-О: Просто отредактируйте файл снова. GitHub хранит все версии, можно откатиться к предыдущей.
+A: Just edit the file again. GitHub stores all versions, you can roll back to previous ones.
 
-### В: Обязательно ли использовать английские названия файлов?
+### Q: Are English filenames mandatory?
 
-О: Нет, можно использовать русские названия, но английские более универсальны и избавляют от проблем с кодировкой.
+A: No, you can use Russian names, but English ones are more universal and avoid encoding issues.
 
-### В: Как добавить соавтора проекта?
+### Q: How do I add a project collaborator?
 
-О: Settings → Collaborators → Add people. Введите username коллеги и отправьте приглашение.
+A: Settings → Collaborators → Add people. Enter colleague's username and send invitation.
 
-### В: Можно ли загружать PDF вместо Markdown?
+### Q: Can I upload PDFs instead of Markdown?
 
-О: Можно, но Markdown предпочтительнее:
-- Отображается прямо на GitHub
-- Легче редактировать
-- Лучше для версионирования
-- Удобнее для поиска
+A: You can, but Markdown is preferable:
+- Displays directly on GitHub
+- Easier to edit
+- Better for versioning
+- More convenient for search
 
-### В: Как защитить репозиторий от случайных изменений?
+### Q: How do I protect repository from accidental changes?
 
-О: Settings → Branches → Add rule. Включите "Require pull request before merging".
+A: Settings → Branches → Add rule. Enable "Require pull request before merging".
 
-## Рекомендуемый порядок действий
+## Recommended Action Sequence
 
-### День 1: Создание структуры
-1. Создайте репозиторий на GitHub
-2. Загрузите все .md файлы
-3. Создайте структуру папок
-4. Проверьте, что все файлы открываются
+### Day 1: Structure Creation
+1. Create repository on GitHub
+2. Upload all .md files
+3. Create folder structure
+4. Verify all files open
 
-### День 2: Добавление контента
-1. Подготовьте фотографии оборудования
-2. Загрузите первые изображения
-3. Добавьте ссылки на изображения в документах
-4. Проверьте отображение
+### Day 2: Content Addition
+1. Prepare equipment photos
+2. Upload first images
+3. Add image links in documents
+4. Check display
 
-### День 3: Настройка и публикация
-1. Настройте Issues и Discussions
-2. Добавьте Topics
-3. Создайте Release v1.0.0
-4. Поделитесь ссылкой в сообществах
+### Day 3: Configuration and Publication
+1. Configure Issues and Discussions
+2. Add Topics
+3. Create Release v1.0.0
+4. Share link in communities
 
-### Дальше: Развитие
-1. Отвечайте на вопросы в Issues
-2. Добавляйте новые разделы
-3. Обновляйте существующую документацию
-4. Собирайте обратную связь
+### Later: Development
+1. Answer questions in Issues
+2. Add new sections
+3. Update existing documentation
+4. Collect feedback
 
-## Советы по работе
+## Work Tips
 
-### Делайте частые коммиты
+### Make Frequent Commits
 
-❌ **Плохо:** Один большой commit со всеми изменениями
+❌ **Bad:** One big commit with all changes
 ```
 git commit -m "Added everything"
 ```
 
-✅ **Хорошо:** Логичные маленькие коммиты
+✅ **Good:** Logical small commits
 ```
 git commit -m "Add theory section"
 git commit -m "Add equipment setup guide"
 git commit -m "Add parameter tables"
 ```
 
-### Пишите понятные commit messages
+### Write Clear Commit Messages
 
-❌ **Плохо:**
+❌ **Bad:**
 - "fix"
 - "update"
 - "changes"
 
-✅ **Хорошо:**
+✅ **Good:**
 - "Fix typo in welding-parameters.md"
 - "Update current values for 1mm metal"
 - "Add troubleshooting for magnetic blow"
 
-### Используйте ветки для экспериментов
+### Use Branches for Experiments
 
 ```bash
-# Создайте ветку для новой фичи
+# Create branch for new feature
 git checkout -b feature/add-aluminum-welding
 
-# Работайте в этой ветке
-# Когда готово - создайте Pull Request
+# Work in this branch
+# When ready - create Pull Request
 
-# Вернитесь в main
+# Return to main
 git checkout main
 ```
 
-### Делайте резервные копии
+### Make Backups
 
-Даже с GitHub полезно иметь локальную копию:
+Even with GitHub it's useful to have local copy:
 ```bash
-# Регулярно обновляйте локальную копию
+# Regularly update local copy
 git pull origin main
 
-# Или сделайте архив
+# Or create archive
 zip -r welding-techniques-backup.zip welding-techniques/
 ```
 
-## Полезные ссылки
+## Useful Links
 
-### Ваш репозиторий будет доступен по адресу:
+### Your repository will be accessible at:
 ```
-https://github.com/ваш-username/welding-techniques
-```
-
-### Для редактирования файла прямо на GitHub:
-```
-https://github.com/ваш-username/welding-techniques/edit/main/путь/к/файлу.md
+https://github.com/your-username/welding-techniques
 ```
 
-### Создание нового Issue:
+### To edit file directly on GitHub:
 ```
-https://github.com/ваш-username/welding-techniques/issues/new
-```
-
-### Просмотр истории изменений:
-```
-https://github.com/ваш-username/welding-techniques/commits/main
+https://github.com/your-username/welding-techniques/edit/main/path/to/file.md
 ```
 
-## Поддержка
+### Creating new Issue:
+```
+https://github.com/your-username/welding-techniques/issues/new
+```
 
-### Если нужна помощь:
+### Viewing change history:
+```
+https://github.com/your-username/welding-techniques/commits/main
+```
 
-**По работе с GitHub:**
+## Support
+
+### If you need help:
+
+**Working with GitHub:**
 - [GitHub Docs](https://docs.github.com)
 - [GitHub Community](https://github.community)
 
-**По содержанию документации:**
-- Создайте Issue в своем репозитории
-- Опишите вопрос или проблему
-- Сообщество поможет
+**Documentation content:**
+- Create Issue in your repository
+- Describe question or problem
+- Community will help
 
-**По техническим вопросам сварки:**
-- Форумы сварщиков
-- Профессиональные сообщества
-- Discussions в репозитории
+**Technical welding questions:**
+- Welder forums
+- Professional communities
+- Discussions in repository
 
-## Следующие шаги
+## Next Steps
 
-После создания репозитория:
+After creating repository:
 
-1. ✅ **Проверьте все файлы** - откройте каждый, убедитесь, что отображается правильно
-2. 📸 **Подготовьте фотографии** - начните с самых важных (оборудование, примеры швов)
-3. 🔗 **Добавьте ссылки** - свяжите документы между собой
-4. 👥 **Пригласите коллег** - попросите проверить и дать обратную связь
-5. 📢 **Поделитесь** - расскажите о проекте в профессиональных сообществах
-6. 📝 **Документируйте опыт** - добавляйте новые кейсы по мере накопления
-7. 🔄 **Отвечайте на вопросы** - взаимодействуйте с пользователями через Issues
+1. ✅ **Check all files** - open each, ensure displays correctly
+2. 📸 **Prepare photos** - start with most important (equipment, weld examples)
+3. 🔗 **Add links** - connect documents together
+4. 👥 **Invite colleagues** - ask to check and give feedback
+5. 📢 **Share** - tell about project in professional communities
+6. 📝 **Document experience** - add new cases as they accumulate
+7. 🔄 **Answer questions** - interact with users via Issues
 
-## Заключение
+## Conclusion
 
-У вас есть все необходимое для создания профессионального репозитория документации!
+You have everything needed to create a professional documentation repository!
 
-**Главное:**
-- Не бойтесь ошибок - все можно исправить
-- Начните с простого - структуру можно развивать постепенно
-- Делитесь опытом - ваши знания помогут многим
-- Принимайте помощь - сообщество сделает документацию лучше
+**Main points:**
+- Don't fear mistakes - everything can be fixed
+- Start simple - structure can be developed gradually
+- Share experience - your knowledge will help many
+- Accept help - community will make documentation better
 
-**Удачи с проектом! 🚀**
+**Good luck with the project! 🚀**
 
 ---
 
-**Вопросы?**
-Создайте Issue в вашем репозитории с тегом "question" - сообщество поможет!
+**Questions?**
+Create Issue in your repository with "question" tag - community will help!
 
-**Готовы начать?**
-Откройте [SETUP_GUIDE.md](SETUP_GUIDE.md) и следуйте пошаговым инструкциям.
+**Ready to start?**
+Open [SETUP_GUIDE.md](welding_setup_guide.md) and follow step-by-step instructions.

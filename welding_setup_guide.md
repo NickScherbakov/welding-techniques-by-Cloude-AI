@@ -1,22 +1,22 @@
-# Инструкция по созданию репозитория на GitHub
+# GitHub Repository Creation Instructions
 
-Пошаговое руководство для публикации документации по сварке на GitHub.
+Step-by-step guide for publishing welding documentation on GitHub.
 
-## Шаг 1: Подготовка
+## Step 1: Preparation
 
-### 1.1. Создайте аккаунт на GitHub
+### 1.1. Create GitHub Account
 
-Если у вас еще нет аккаунта:
-1. Перейдите на https://github.com
-2. Нажмите "Sign up"
-3. Следуйте инструкциям регистрации
-4. Подтвердите email
+If you don't have an account yet:
+1. Go to https://github.com
+2. Click "Sign up"
+3. Follow registration instructions
+4. Confirm email
 
-### 1.2. Установите Git (опционально, для работы через командную строку)
+### 1.2. Install Git (optional, for command line work)
 
 **Windows:**
-- Скачайте с https://git-scm.com/download/win
-- Установите с настройками по умолчанию
+- Download from https://git-scm.com/download/win
+- Install with default settings
 
 **Linux:**
 ```bash
@@ -29,106 +29,106 @@ sudo yum install git      # RedHat/CentOS
 brew install git
 ```
 
-Или используйте веб-интерфейс GitHub (проще для начинающих).
+Or use GitHub web interface (easier for beginners).
 
-## Шаг 2: Создание репозитория через веб-интерфейс
+## Step 2: Creating Repository via Web Interface
 
-### 2.1. Создайте новый репозиторий
+### 2.1. Create New Repository
 
-1. Войдите в свой аккаунт GitHub
-2. Нажмите "+" в правом верхнем углу
-3. Выберите "New repository"
+1. Log into your GitHub account
+2. Click "+" in upper right corner
+3. Select "New repository"
 
-### 2.2. Настройте репозиторий
+### 2.2. Configure Repository
 
-**Заполните форму:**
-- **Repository name:** `welding-techniques` (или свое название)
-- **Description:** "Практические решения и нестандартные подходы в сварочных технологиях"
-- **Public/Private:** Выберите Public (для открытого доступа)
+**Fill form:**
+- **Repository name:** `welding-techniques` (or your own name)
+- **Description:** "Practical solutions and unconventional approaches in welding technologies"
+- **Public/Private:** Choose Public (for open access)
 - **Initialize this repository with:**
   - ✅ Add a README file
-  - ✅ Add .gitignore (выберите None)
-  - ✅ Choose a license (выберите Creative Commons Attribution Share Alike 4.0)
+  - ✅ Add .gitignore (select None)
+  - ✅ Choose a license (select Creative Commons Attribution Share Alike 4.0)
 
-**Нажмите "Create repository"**
+**Click "Create repository"**
 
-## Шаг 3: Создание структуры папок
+## Step 3: Creating Folder Structure
 
-### 3.1. Через веб-интерфейс
+### 3.1. Via Web Interface
 
-1. На странице репозитория нажмите "Add file" → "Create new file"
-2. В поле "Name your file" введите: `TIG-source-with-coated-electrodes/theory.md`
-   - GitHub автоматически создаст папку
-3. Скопируйте содержимое из файла `theory.md` (из подготовленных файлов)
-4. Прокрутите вниз, добавьте commit message: "Add theory documentation"
-5. Нажмите "Commit new file"
+1. On repository page click "Add file" → "Create new file"
+2. In "Name your file" field enter: `TIG-source-with-coated-electrodes/theory.md`
+   - GitHub will automatically create folder
+3. Copy content from `theory.md` file (from prepared files)
+4. Scroll down, add commit message: "Add theory documentation"
+5. Click "Commit new file"
 
-**Повторите для всех файлов:**
+**Repeat for all files:**
 - `TIG-source-with-coated-electrodes/equipment-setup.md`
 - `TIG-source-with-coated-electrodes/welding-parameters.md`
 - `TIG-source-with-coated-electrodes/troubleshooting.md`
 - `TIG-source-with-coated-electrodes/images/README.md`
 
-### 3.2. Через Git (альтернативный метод)
+### 3.2. Via Git (alternative method)
 
-Если предпочитаете работать локально:
+If you prefer working locally:
 
 ```bash
-# Клонируйте репозиторий
-git clone https://github.com/ваш-username/welding-techniques.git
+# Clone repository
+git clone https://github.com/your-username/welding-techniques.git
 cd welding-techniques
 
-# Создайте структуру папок
+# Create folder structure
 mkdir -p TIG-source-with-coated-electrodes/images
 mkdir -p other-techniques
 
-# Скопируйте подготовленные файлы в соответствующие папки
+# Copy prepared files to appropriate folders
 
-# Добавьте файлы в Git
+# Add files to Git
 git add .
 
-# Создайте commit
+# Create commit
 git commit -m "Initial documentation structure"
 
-# Отправьте на GitHub
+# Push to GitHub
 git push origin main
 ```
 
-## Шаг 4: Обновление README.md
+## Step 4: Updating README.md
 
-1. Откройте файл `README.md` в корне репозитория
-2. Нажмите иконку карандаша (Edit this file)
-3. Замените содержимое на подготовленный текст README
-4. Commit changes с сообщением: "Update main README"
+1. Open `README.md` file in repository root
+2. Click pencil icon (Edit this file)
+3. Replace content with prepared README text
+4. Commit changes with message: "Update main README"
 
-## Шаг 5: Добавление лицензии
+## Step 5: Adding License
 
-Если вы выбрали лицензию при создании, файл `LICENSE` уже создан. Если нет:
+If you selected license during creation, `LICENSE` file is already created. If not:
 
-1. Нажмите "Add file" → "Create new file"
-2. Назовите файл: `LICENSE`
-3. Вставьте текст лицензии CC BY-SA 4.0
-4. Commit с сообщением: "Add CC BY-SA 4.0 license"
+1. Click "Add file" → "Create new file"
+2. Name file: `LICENSE`
+3. Paste CC BY-SA 4.0 license text
+4. Commit with message: "Add CC BY-SA 4.0 license"
 
-## Шаг 6: Добавление изображений (когда будут готовы)
+## Step 6: Adding Images (when ready)
 
-### 6.1. Через веб-интерфейс
+### 6.1. Via Web Interface
 
-1. Перейдите в папку `TIG-source-with-coated-electrodes/images`
-2. Нажмите "Add file" → "Upload files"
-3. Перетащите изображения в окно браузера
-4. Добавьте commit message: "Add welding process images"
-5. Нажмите "Commit changes"
+1. Go to `TIG-source-with-coated-electrodes/images` folder
+2. Click "Add file" → "Upload files"
+3. Drag images to browser window
+4. Add commit message: "Add welding process images"
+5. Click "Commit changes"
 
-### 6.2. Через Git
+### 6.2. Via Git
 
 ```bash
-# Перейдите в папку images
+# Go to images folder
 cd TIG-source-with-coated-electrodes/images
 
-# Скопируйте ваши изображения сюда
+# Copy your images here
 
-# Добавьте в Git
+# Add to Git
 git add *.jpg *.png
 
 # Commit
@@ -138,294 +138,294 @@ git commit -m "Add equipment and weld photos"
 git push origin main
 ```
 
-## Шаг 7: Настройка GitHub Pages (опционально)
+## Step 7: Setting Up GitHub Pages (optional)
 
-Для создания веб-сайта из документации:
+To create website from documentation:
 
-1. Перейдите в "Settings" репозитория
-2. В меню слева выберите "Pages"
-3. В разделе "Source" выберите "main" branch
-4. Папка: "/ (root)"
-5. Нажмите "Save"
-6. Через несколько минут сайт будет доступен по адресу:
-   `https://ваш-username.github.io/welding-techniques/`
+1. Go to repository "Settings"
+2. Select "Pages" from left menu
+3. In "Source" section select "main" branch
+4. Folder: "/ (root)"
+5. Click "Save"
+6. After few minutes site will be available at:
+   `https://your-username.github.io/welding-techniques/`
 
-## Шаг 8: Настройка для совместной работы
+## Step 8: Setting Up Collaboration
 
-### 8.1. Добавление соавторов
+### 8.1. Adding Collaborators
 
-Если работаете в команде:
+If working in team:
 1. Settings → Collaborators
-2. Нажмите "Add people"
-3. Введите username соавтора
-4. Отправьте приглашение
+2. Click "Add people"
+3. Enter collaborator's username
+4. Send invitation
 
-### 8.2. Настройка защиты ветки main
+### 8.2. Setting Up Main Branch Protection
 
-Для предотвращения случайных изменений:
+To prevent accidental changes:
 1. Settings → Branches
 2. "Add branch protection rule"
 3. Branch name pattern: `main`
-4. Включите:
+4. Enable:
    - ✅ Require a pull request before merging
-   - ✅ Require approvals (если есть соавторы)
+   - ✅ Require approvals (if have collaborators)
 
-## Шаг 9: Работа с Issues и Discussions
+## Step 9: Working with Issues and Discussions
 
-### 9.1. Включение Issues
+### 9.1. Enabling Issues
 
-Issues обычно включены по умолчанию. Проверьте:
+Issues usually enabled by default. Check:
 1. Settings → General
-2. Features → Issues (должна быть ✅)
+2. Features → Issues (should be ✅)
 
-### 9.2. Включение Discussions
+### 9.2. Enabling Discussions
 
 1. Settings → General
-2. Features → Discussions → ✅ включите
+2. Features → Discussions → ✅ enable
 3. Set up Discussions
-4. Создайте категории:
-   - General (обсуждения)
-   - Q&A (вопросы и ответы)
-   - Ideas (предложения)
-   - Show and tell (поделиться результатами)
+4. Create categories:
+   - General (discussions)
+   - Q&A (questions and answers)
+   - Ideas (suggestions)
+   - Show and tell (share results)
 
-### 9.3. Создание шаблона Issue
+### 9.3. Creating Issue Template
 
 1. Settings → Features → Issues → "Set up templates"
-2. Добавьте шаблон "Bug report":
+2. Add "Bug report" template:
 
 ```markdown
-**Описание проблемы:**
-Четкое описание проблемы, с которой вы столкнулись.
+**Problem description:**
+Clear description of problem you encountered.
 
-**Параметры оборудования:**
-- Источник: 
-- ВАХ: 
-- Ток: 
-- Электрод: 
+**Equipment parameters:**
+- Power source: 
+- V-A curve: 
+- Current: 
+- Electrode: 
 
-**Что вы уже попробовали:**
-Перечислите предпринятые действия.
+**What you already tried:**
+List actions taken.
 
-**Ожидаемый результат:**
-Что вы ожидали получить.
+**Expected result:**
+What you expected to get.
 
-**Фактический результат:**
-Что получилось на самом деле.
+**Actual result:**
+What actually happened.
 
-**Фотографии (если есть):**
-Прикрепите фотографии проблемы.
+**Photos (if available):**
+Attach problem photos.
 ```
 
-3. Добавьте шаблон "Feature request":
+3. Add "Feature request" template:
 
 ```markdown
-**Предлагаемая функциональность:**
-Что вы хотели бы видеть в документации?
+**Proposed functionality:**
+What would you like to see in documentation?
 
-**Обоснование:**
-Почему это будет полезно?
+**Justification:**
+Why would this be useful?
 
-**Возможная реализация:**
-Ваши идеи по реализации (опционально).
+**Possible implementation:**
+Your ideas for implementation (optional).
 ```
 
-## Шаг 10: Создание вики (опционально)
+## Step 10: Creating Wiki (optional)
 
-GitHub Wiki - альтернативное место для документации:
+GitHub Wiki - alternative place for documentation:
 
-1. Перейдите на вкладку "Wiki"
+1. Go to "Wiki" tab
 2. "Create the first page"
-3. Создайте главную страницу с навигацией
-4. Добавьте дополнительные страницы по темам
+3. Create main page with navigation
+4. Add additional pages by topic
 
-**Преимущества Wiki:**
-- Проще редактировать через веб-интерфейс
-- Отдельная история изменений
-- Удобная навигация
+**Wiki advantages:**
+- Easier to edit via web interface
+- Separate change history
+- Convenient navigation
 
-**Недостатки:**
-- Отдельно от основного кода
-- Менее строгий контроль версий
+**Disadvantages:**
+- Separate from main code
+- Less strict version control
 
-## Шаг 11: Настройка .gitignore
+## Step 11: Setting Up .gitignore
 
-Создайте файл `.gitignore` для исключения ненужных файлов:
+Create `.gitignore` file to exclude unnecessary files:
 
 ```
-# Временные файлы редакторов
+# Editor temporary files
 *~
 *.swp
 *.swo
 .DS_Store
 Thumbs.db
 
-# Резервные копии
+# Backups
 *.bak
 *.backup
 
-# Большие файлы (если превышают лимит GitHub)
+# Large files (if exceed GitHub limit)
 *.mp4
 *.avi
 
-# Личные заметки
+# Personal notes
 notes/
 private/
 ```
 
-## Шаг 12: Создание README для подпапок
+## Step 12: Creating README for Subfolders
 
-В каждой значимой папке создайте README.md с описанием:
+Create README.md in each significant folder with description:
 
-**Пример `TIG-source-with-coated-electrodes/README.md`:**
+**Example `TIG-source-with-coated-electrodes/README.md`:**
 
 ```markdown
-# Сварка источником TIG с покрытыми электродами
+# Welding with TIG Power Source and Coated Electrodes
 
-Этот раздел содержит полную документацию по нестандартной методике использования источника для аргонодуговой сварки (TIG) с покрытыми электродами типа MMA/SMAW.
+This section contains complete documentation on unconventional method of using TIG (GTAW) power source with MMA/SMAW coated electrodes.
 
-## Содержание раздела
+## Section Contents
 
-1. [Теория](theory.md) - Физические основы и обоснование метода
-2. [Настройка оборудования](equipment-setup.md) - Подробное руководство по настройке
-3. [Параметры сварки](welding-parameters.md) - Таблицы режимов и техника
-4. [Устранение неполадок](troubleshooting.md) - Решение типичных проблем
-5. [Изображения](images/) - Фотографии и схемы
+1. [Theory](theory.md) - Physical fundamentals and method justification
+2. [Equipment Setup](equipment-setup.md) - Detailed setup guide
+3. [Welding Parameters](welding-parameters.md) - Mode tables and technique
+4. [Troubleshooting](troubleshooting.md) - Common problem solutions
+5. [Images](images/) - Photos and diagrams
 
-## Быстрый старт
+## Quick Start
 
-1. Убедитесь, что ваш источник имеет наклонную ВАХ (1-2 В/А)
-2. Активируйте высокочастотный поджиг (HF Start)
-3. Установите обратную полярность
-4. Начните с тока согласно [таблицам](welding-parameters.md)
-5. Практикуйтесь на образцах!
+1. Ensure your power source has sloped V-A curve (1-2 V/A)
+2. Activate high-frequency ignition (HF Start)
+3. Set reverse polarity
+4. Start with current per [tables](welding-parameters.md)
+5. Practice on samples!
 
-## Предупреждение
+## Warning
 
-Метод является нестандартным применением оборудования. Перед использованием:
-- Изучите теоретическую часть
-- Проведите испытания на образцах
-- Убедитесь в соответствии результатов требованиям
+Method is non-standard equipment use. Before using:
+- Study theoretical section
+- Conduct tests on samples
+- Ensure results meet requirements
 
-## Вопросы и обсуждение
+## Questions and Discussion
 
-- [Создать Issue](../../issues/new) - для вопросов и проблем
-- [Discussions](../../discussions) - для общих обсуждений
+- [Create Issue](../../issues/new) - for questions and problems
+- [Discussions](../../discussions) - for general discussions
 ```
 
-## Шаг 13: Продвижение репозитория
+## Step 13: Repository Promotion
 
-### 13.1. Добавьте топики (topics)
+### 13.1. Add Topics
 
-На главной странице репозитория:
-1. Справа от "About" нажмите шестеренку
-2. Добавьте topics:
+On repository main page:
+1. Click gear icon to right of "About"
+2. Add topics:
    - `welding`
    - `tig-welding`
    - `mma-welding`
    - `documentation`
-   - `russian`
+   - `english`
    - `fabrication`
    - `metalworking`
 
-### 13.2. Создайте Release
+### 13.2. Create Release
 
-Когда документация будет готова:
+When documentation is ready:
 1. "Releases" → "Create a new release"
 2. Tag version: `v1.0.0`
-3. Release title: "Первая версия документации"
-4. Описание: краткое содержание
+3. Release title: "First Documentation Version"
+4. Description: brief contents
 5. "Publish release"
 
-### 13.3. Поделитесь
+### 13.3. Share
 
-- Форумы сварщиков
-- Тематические группы в соцсетях
-- Профессиональные сообщества
+- Welder forums
+- Themed social media groups
+- Professional communities
 - Reddit (r/Welding, r/metalworking)
 
-## Шаг 14: Поддержка и обновления
+## Step 14: Support and Updates
 
-### 14.1. Регулярно проверяйте Issues
+### 14.1. Regularly Check Issues
 
-- Отвечайте на вопросы пользователей
-- Помечайте решенные Issues как closed
-- Используйте labels для категоризации
+- Answer user questions
+- Mark resolved Issues as closed
+- Use labels for categorization
 
-### 14.2. Обновляйте документацию
+### 14.2. Update Documentation
 
-При появлении нового опыта:
+When new experience appears:
 ```bash
-git pull origin main  # Получить последние изменения
-# Внесите изменения в файлы
+git pull origin main  # Get latest changes
+# Make changes to files
 git add .
 git commit -m "Update parameters for 1.2mm metal"
 git push origin main
 ```
 
-### 14.3. Создавайте ветки для экспериментов
+### 14.3. Create Branches for Experiments
 
 ```bash
 git checkout -b feature/new-electrode-type
-# Работайте над новой документацией
+# Work on new documentation
 git commit -am "Add documentation for rutile electrodes"
 git push origin feature/new-electrode-type
-# Создайте Pull Request через веб-интерфейс
+# Create Pull Request via web interface
 ```
 
-## Полезные ресурсы
+## Useful Resources
 
-### Документация GitHub
-- [GitHub Docs](https://docs.github.com) - официальная документация
-- [GitHub Guides](https://guides.github.com) - пошаговые руководства
-- [Markdown Guide](https://www.markdownguide.org) - синтаксис Markdown
+### GitHub Documentation
+- [GitHub Docs](https://docs.github.com) - official documentation
+- [GitHub Guides](https://guides.github.com) - step-by-step guides
+- [Markdown Guide](https://www.markdownguide.org) - Markdown syntax
 
-### Инструменты
-- [GitHub Desktop](https://desktop.github.com) - GUI клиент для Git
-- [VS Code](https://code.visualstudio.com) - редактор с поддержкой Markdown
-- [Typora](https://typora.io) - WYSIWYG редактор Markdown
+### Tools
+- [GitHub Desktop](https://desktop.github.com) - GUI Git client
+- [VS Code](https://code.visualstudio.com) - editor with Markdown support
+- [Typora](https://typora.io) - WYSIWYG Markdown editor
 
-### Сообщество
+### Community
 - [GitHub Community Forum](https://github.community)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/github)
 
-## Контрольный список готовности репозитория
+## Repository Readiness Checklist
 
-Перед публикацией убедитесь:
+Before publication ensure:
 
-- [ ] README.md в корне с описанием проекта
-- [ ] LICENSE файл с CC BY-SA 4.0
-- [ ] Вся основная документация добавлена
-- [ ] Структура папок создана
-- [ ] README в каждой значимой папке
-- [ ] .gitignore настроен
-- [ ] Topics добавлены
-- [ ] Описание репозитория заполнено
-- [ ] Issues включены
-- [ ] Discussions настроены (опционально)
-- [ ] Шаблоны Issues созданы
-- [ ] Первый Release опубликован
+- [ ] README.md in root with project description
+- [ ] LICENSE file with CC BY-SA 4.0
+- [ ] All main documentation added
+- [ ] Folder structure created
+- [ ] README in each significant folder
+- [ ] .gitignore configured
+- [ ] Topics added
+- [ ] Repository description filled
+- [ ] Issues enabled
+- [ ] Discussions configured (optional)
+- [ ] Issue templates created
+- [ ] First Release published
 
-## Следующие шаги
+## Next Steps
 
-После создания репозитория:
+After creating repository:
 
-1. **Добавьте изображения** - когда подготовите фотографии
-2. **Соберите обратную связь** - попросите коллег проверить
-3. **Создайте примеры** - добавьте практические кейсы
-4. **Расширяйте документацию** - добавляйте новые разделы
-5. **Взаимодействуйте с сообществом** - отвечайте на Issues
+1. **Add images** - when photos are prepared
+2. **Collect feedback** - ask colleagues to check
+3. **Create examples** - add practical cases
+4. **Expand documentation** - add new sections
+5. **Interact with community** - answer Issues
 
-## Получение помощи
+## Getting Help
 
-Если возникли трудности:
+If difficulties arise:
 
 1. **GitHub Support:** https://support.github.com
 2. **Community Forum:** https://github.community
-3. **Я (Claude AI):** Можете задать вопросы о структуре или содержании
+3. **Me (Claude AI):** Can ask questions about structure or content
 
 ---
 
-**Удачи с созданием репозитория!**
+**Good luck creating the repository!**
 
-Вы делаете важный вклад в профессиональное сообщество, делясь практическим опытом. 🚀
+You're making an important contribution to professional community by sharing practical experience. 🚀
