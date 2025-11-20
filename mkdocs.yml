@@ -11,9 +11,9 @@ docs_dir: docs
 
 theme:
   name: material
-  language: ru
+  language: ru  # базовый язык (Russian default)
   features:
-    - navigation.tabs
+    - navigation.instant
     - navigation.sections
     - navigation.top
     - search.suggest
@@ -22,9 +22,85 @@ theme:
     - content.action.edit
     - content.action.view
     - announce.dismiss
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Переключить в тёмную тему
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 plugins:
   - search
+  - i18n:
+      default_language: ru
+      languages:
+        ru: Русский
+        en: English
+        zh: 中文
+        ar: العربية
+      nav_translations:
+        en:
+          Главная: Home
+          Быстрый старт: Quick Start
+          Теория: Theory
+          Практика: Practice
+          Оборудование: Equipment
+          Параметры: Parameters
+          Наладка: Setup
+          Материалы: Resources
+          Файлы проекта: Project Files
+          Руководство по изображениям: Images Guide
+          Трудности: Troubleshooting
+          Статьи и опыт: Articles & Experience
+          Сообщество: Community
+          Как внести вклад: Contributing
+          Шаблоны материалов: Submission Templates
+          Кодекс поведения: Code of Conduct
+        zh:
+          Главная: 主页
+          Быстрый старт: 快速开始
+          Теория: 理论
+          Практика: 实践
+          Оборудование: 设备
+          Параметры: 参数
+          Наладка: 调试
+          Материалы: 资料
+          Файлы проекта: 项目文件
+          Руководство по изображениям: 图片指南
+          Трудности: 排障
+          Статьи и опыт: 文章与经验
+          Сообщество: 社区
+          Как внести вклад: 贡献指南
+          Шаблоны материалов: 提交模板
+          Кодекс поведения: 行为准则
+        ar:
+          Главная: الرئيسية
+          Быстрый старт: البدء السريع
+          Теория: النظرية
+          Практика: التطبيق
+          Оборудование: المعدات
+          Параметры: المعاملات
+          Наладка: الإعداد
+          Материалы: المواد
+          Файлы проекта: ملفات المشروع
+          Руководство по изображениям: دليل الصور
+          Трудности: استكشاف الأخطاء
+          Статьи и опыт: المقالات والخبرة
+          Сообщество: المجتمع
+          Как внести вклад: المساهمة
+          Шаблоны материалов: قوالب التقديم
+          Кодекс поведения: مدونة السلوك
   - git-revision-date-localized:
       fallback_to_build_date: true
 
@@ -46,6 +122,7 @@ markdown_extensions:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - css/overrides.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
@@ -56,6 +133,19 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/NickScherbakov/welding-techniques-by-Cloude-AI
+  alternate:
+    - name: Русский
+      link: /
+      lang: ru
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: العربية
+      link: /ar/
+      lang: ar
 
 nav:
   - Главная: index.md
