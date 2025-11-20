@@ -45,10 +45,19 @@ plugins:
   - i18n:
       default_language: ru
       languages:
-        ru: Русский
-        en: English
-        zh: 中文
-        ar: العربية
+        - locale: ru
+          name: Русский
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
+        - locale: ar
+          name: العربية
+          build: true
       nav_translations:
         en:
           Главная: Home
