@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex,nofollow">
+    <script>
+      (function() {
+        const origin = 'https://nickscherbakov.github.io';
+        const projectBase = '/welding-techniques-by-Cloude-AI';
+        const path = (window.location.pathname || '/').replace(/(^\/|\/$)/g, '');
+        // If path starts with a locale (en, zh, ar, ru), forward to project locale preserving tail
+        const m = path.match(/^(en|zh|ar|ru)(\/.*|$)/i);
+        if (m) {
+          const lang = m[1].toLowerCase();
+          const tail = m[2] || '/';
+          const target = `${origin}${projectBase}/${lang}${tail}`.replace(/([^:])\/\/{2,}/g, '$1/');
+          window.location.replace(target);
+          return;
+        }
+        // default: redirect to project main page
+        window.location.replace(`${origin}${projectBase}/`);
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0;url=https://nickscherbakov.github.io/welding-techniques-by-Cloude-AI/">
+    </noscript>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected, click the link for the project homepage:</p>
+    <p><a href="https://nickscherbakov.github.io/welding-techniques-by-Cloude-AI/">Project home</a></p>
+  </body>
+</html>

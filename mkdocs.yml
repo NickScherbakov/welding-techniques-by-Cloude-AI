@@ -141,16 +141,16 @@ extra:
       link: https://github.com/NickScherbakov/welding-techniques-by-Cloude-AI
   alternate:
     - name: Русский
-      link: /
+      link: /welding-techniques-by-Cloude-AI/
       lang: ru
     - name: English
-      link: /en/
+      link: /welding-techniques-by-Cloude-AI/en/
       lang: en
     - name: 中文
-      link: /zh/
+      link: /welding-techniques-by-Cloude-AI/zh/
       lang: zh
     - name: العربية
-      link: /ar/
+      link: /welding-techniques-by-Cloude-AI/ar/
       lang: ar
 
 nav:
