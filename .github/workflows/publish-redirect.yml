@@ -1,0 +1,46 @@
+name: Publish redirect site to user repo
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-redirect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare redirect site
+        run: |
+          rm -rf ./redirect-build || true
+          mkdir -p ./redirect-build
+          # copy redirect files
+          cp -R redirect/* redirect-build/
+
+      - name: Publish to target repo
+        env:
+          TARGET_REPO: ${{ secrets.TARGET_REPO }}
+          PUBLISH_PAT: ${{ secrets.PUBLISH_PAT }}
+        run: |
+          if [ -z "$TARGET_REPO" ]; then
+            echo "TARGET_REPO secret is not set. Please set it to 'username/username.github.io'";
+            exit 1;
+          fi
+          if [ -z "$PUBLISH_PAT" ]; then
+            echo "PUBLISH_PAT secret is not set. Create a PAT with repo scope and set it.";
+            exit 1;
+          fi
+          echo "Publishing redirect site to $TARGET_REPO"
+          cd redirect-build
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Publish redirect site"
+          git remote add origin "https://x-access-token:${PUBLISH_PAT}@github.com/${TARGET_REPO}.git"
+          git push --force origin main
