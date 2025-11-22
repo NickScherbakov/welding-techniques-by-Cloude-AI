@@ -26,6 +26,7 @@
   - Add language selector at the top with Arabic shown in bold
 
 
+
   - Include horizontal rule separator after language selector
   - Maintain all badges, links, and code examples from original
   - Ensure proper UTF-8 encoding and RTL text handling for Arabic
