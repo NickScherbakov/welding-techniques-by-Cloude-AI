@@ -1,10 +1,10 @@
 # Сообщество сварщиков — Cloude AI
 
-<div class="language-switcher" style="display: flex; gap: 10px; margin: 20px 0; flex-wrap: wrap; justify-content: center;">
-  <a href="./" style="padding: 10px 20px; background: #4051b5; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">Русский</a>
-  <a href="./en/" style="padding: 10px 20px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.3s;">English</a>
-  <a href="./zh/" style="padding: 10px 20px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.3s;">中文</a>
-  <a href="./ar/" style="padding: 10px 20px; background: #f5f5f5; color: #333; text-decoration: none; border-radius: 4px; border: 1px solid #ddd; transition: all 0.3s;">العربية</a>
+<div class="language-switcher">
+  <a href="./" class="active">🇷🇺 Русский</a>
+  <a href="./en/">🇬🇧 English</a>
+  <a href="./zh/">🇨🇳 中文</a>
+  <a href="./ar/">🇸🇦 العربية</a>
 </div>
 
 Добро пожаловать на сайт сообщества сварщиков‑энтузиастов! Здесь ученые и специалисты‑практики делятся опытом, теориями, методиками, параметрами режимов и реальными кейсами.
