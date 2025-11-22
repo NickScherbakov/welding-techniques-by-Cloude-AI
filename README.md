@@ -1,3 +1,7 @@
+**🇷🇺 Русский** | [🇬🇧 English](README.en.md) | [🇨🇳 中文](README.zh.md) | [🇸🇦 العربية](README.ar.md)
+
+---
+
 # Сообщество сварщиков — Cloude AI
 
 [![Documentation](https://img.shields.io/badge/docs-MkDocs-blue)](https://nickscherbakov.github.io/welding-techniques-by-Cloude-AI/)
